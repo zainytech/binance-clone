@@ -1,0 +1,113 @@
+.mainparent{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.parent1{
+    /* height: 100vh; */
+    width: 25%;
+    background-color: #eee;
+}
+.parent2{
+    /* height: 100vh; */
+    width: 55%;
+    background-color:rgb(217, 226, 230);
+    padding: 1rem 0;
+}
+.parent3{
+    /* height: 100vh; */
+    width: 20%;
+    background-color: white;
+}
+.spothotfav{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:  space-evenly;
+    align-items: ; */
+
+}
+.spot1{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.tableone{
+    margin-left: 30px;
+}
+.bnbimg{
+    height: 30px;
+    width: 30px;
+}
+.bnbtd{
+    display: flex;
+    flex-direction: row;
+}
+.tddata{
+    margin-right: 60px;
+}
+.tddata1{
+    /* margin-left: 60px; */
+    padding-right: 70px;
+}
+.bnbtext{
+    margin-right: 7px;
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: black;
+    /* line-height: 20px; */
+    /* font-weight: 900px; */
+
+
+}
+.coinname{
+    /* box-sizing: border-box; */
+    /* margin: 0px; */
+    /* min-width: 0px; */
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 20px; */
+    /* text-overflow: ellipsis; */
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
+    /* max-width: 80px; */
+    color: rgb(112, 122, 138);
+}
+.nametd{
+    padding-right: 150px !important;
+}
+.pricetext{
+padding-right: 120px !important;
+}
+.markettext{
+    margin-left: 20px;
+    color: black;
+}
+
+.markethead{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.markethead>i{
+    cursor: pointer;   
+}
+.markethead>button{
+    background-color: rgb(217, 226, 230);
+    opacity: 0.5;
+} 
+.tddata2{
+    color: rgb(207, 48, 74);
+}
+.tddata3{
+    color: rgb(201, 148, 0);
+}
+
+
+@media screen and (max-width: 1020px){
+    .parent2{
+        position: absolute;
+        top: 6.5rem;
+    }
+}

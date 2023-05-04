@@ -1,0 +1,64 @@
+.graph2{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.graph2 .graph1first{
+    width: 58%;
+    margin-left: 0;
+}
+.graph2 .graph1col1{
+    margin-top: 0;
+    padding: 2rem 3rem;
+    gap: 1.4rem;
+    border-radius: 0;
+}
+.graph2 .graph1col2{
+    margin-top: 0;
+}
+.graph2 .graph12col{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    border-left: 0 solid gray;
+    border-right: 1 solid gray;
+    border-bottom: 0px solid gray;
+    padding: 0 1.4rem 2rem;
+}
+.graph2 .graph12row1 p:first-child{
+    color: white;
+}
+.graph2 .graph12row3 p:first-child{
+    color: white;
+}
+.graph2green{
+    color: green;
+    font-weight: bold;
+}
+.graph2red{
+    color: red;
+    font-weight: bold;
+}
+
+.tradingview-widget-container{
+    padding-top: 4rem;
+    width: 100%;
+    height: 54%;
+}
+
+#tradingview_ada75{
+    width: 100%;
+    height: 100%;
+    /* height: 190%; */
+    /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 760px){
+    .tradingview-widget-container{
+        padding: 3rem 0;
+        width: 100vw;
+        /* margin: auto; */
+        height: 100vh;
+        margin-bottom: 3rem;
+    }
+}

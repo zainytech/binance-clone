@@ -1,0 +1,88 @@
+.acoin{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding: 3rem 2rem;
+}
+.acoinfirst{
+    width: 80%;
+    margin: auto;
+}
+.acoinrow1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    margin-bottom: 2rem;
+}
+.acoinrow1 img{
+    width: 3rem;
+    height: 3rem;
+}
+.acoinp1{
+    text-align: center;
+    font-size: 18px;
+    opacity: .9;
+}
+.acoinp2{
+    text-align: center;
+    font-size: 16px;
+}
+.acoinp3{
+    font-size: 14px;
+    line-height: 2.4;
+    text-align: justify;
+    font-weight: bold;
+}
+.acoinline{
+    opacity: .4;
+    margin: 2rem 0;   
+}
+.acoinrow2 p{
+    color: #2D56E1;
+    font-weight: bold;
+    font-size: 17px;
+}
+.acoinrow3{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.acoinrow3 p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.acoinrow3 .acoin3row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 1.6rem; 
+}
+.acoin3col1 img{
+    width: 20rem;
+    height: auto;
+}
+.acoin3col1{
+    position: relative;
+}
+.acoin3col1 button{
+    background-color: #161616;
+    color: #2D56E1;
+    position: absolute;
+    bottom: 3%;
+    left: 8%;
+    z-index: 1000;
+    width: 78%;
+    height: 3rem;
+    border-radius: .6rem;
+    font-weight: bold;
+}
+.acoin3col1 button:hover{
+    opacity: .8;
+}
+@media screen and (max-width: 780px){
+    .acoinfirst{
+        width: 100%;
+        margin: auto;
+    }
+}

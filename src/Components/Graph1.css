@@ -1,0 +1,164 @@
+.graph1{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.graph1first{
+    background-color: black;
+    margin-left: 2.4rem;
+    width: 50%;
+}
+.graph1col1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #161616;
+    width: fit-content;
+    padding: 2rem 1.2rem;
+    border-radius: .4rem;
+    line-height: .9;
+    margin: 3.8rem 0;
+}
+.graph1first .frame1{
+    width: 99.5%;
+}
+.graph1row1{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+.graph1row1 img{
+    width: .8rem;
+    height: .7rem;
+}
+.graph1col1 div p:first-child{
+    opacity: .8;
+    font-size: 13px;
+}
+.graph1col1 div p:last-child{
+    font-weight: bold;
+    font-size: 13px;
+}
+.graph1row3{
+    color: green;
+    font-size: 19px;
+}
+.graph1row2{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+.graph1row2 p:first-child{
+    opacity: none;
+    margin-top: .5rem;
+    color: orange;
+    font-weight: bold;
+}
+.graph1row4 p:last-child{
+    color: red;
+}
+.graph1row5{
+    width: 1.5rem;
+}
+.graph1col2{
+    width: 22%;
+    margin: 5rem 0;
+}
+.graph2margin{
+    padding-left: 1rem;
+}
+.graph12col{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 0 1.4rem 2rem;
+}
+.graph1col2 img{
+    margin: 1rem 0;
+}
+.graph12col div{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.graph12row1 p:first-child{
+    color: red;
+}
+.grapg12row2{
+    margin: 1.6rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.graph12row3 p:first-child{
+    color: green;
+}
+.graph1col2 h6{
+    margin: 1.6rem 0 .3rem 0;
+}
+.grborder{
+    border-bottom: none;
+}
+.graph1col3{
+    width: 20%;
+    background-color: #161616;
+    padding: 4rem 1rem;
+    text-align: justify;
+}
+.graph1col3 :nth-child(2){
+    margin-top: 2rem;
+    margin-bottom: .8rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+#vehicle2{
+    margin: 1rem 0 0 0;
+    text-align: right;
+}
+.graph1agree{
+    line-height: .7;
+    margin: 2rem 0;
+    font-size: 14px;
+    opacity: .9;
+    text-align: right;
+}
+.graph1agree a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15.5px;
+}
+.graph1btn{
+    margin: 1.6rem 0 .8rem 0;
+    background-color: black;
+    text-align: center;
+    padding: .7rem 1.3rem;
+    border-radius: .6rem;
+}
+.graph1trade{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.graph1trade a{
+    text-decoration: none;
+}
+@media screen and (max-width: 1030px){
+    .graph1col1{
+        display: none;
+    }
+    .graph1first{
+        /* width: 100%; */
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+    .graph1col2{
+        display: none;
+    }
+    .graph1col3{
+        display: none;
+    }
+    
+}

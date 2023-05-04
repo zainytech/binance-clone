@@ -1,0 +1,216 @@
+.wafiat{
+    display: flex;
+    overflow: hidden;
+    color: black;
+}
+.wafiat-first{
+    width: 82%;
+    padding: 2rem 1.5rem;
+}
+.wafiat-first-col1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wafiat-first-col1 div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .7rem;
+}
+.wafiat-first-col1 div button{
+    width: 7rem;
+    height: 2.6rem;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: .4rem;
+}
+.wafiat-first-col1 div button:first-child{
+    background-color: rgb(45,86,225);
+    color: white;
+}
+.wafiat-first-col1 div button:hover{
+    opacity: .9;
+}
+.wafiat-first-col2{
+    margin-bottom: 3rem;
+}
+.wafiat-first-col2-row1{
+    display: flex;
+    gap: .8rem;
+    margin-top: 3.4rem;
+    margin-bottom: .4rem;
+}
+.wafiat-first-col2-row1 div{
+    font-size: 16px;
+    font-weight: 400;
+}
+.wafiat-first-col2-row1 button{
+    background-color: inherit;
+}
+.wafiat-first-col2-row1 .fa-solid{
+    font-size: .8rem;
+}
+.wafiat-first-col2-row1 .fa-solid:hover{
+    opacity: .8;
+}
+.wafiat-first-col2-row2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+.wafiat-first-col2-row2 div h5{
+    padding-top: .5rem;
+}
+.wafiat-first-col2-row2-color{
+    color: rgb(85, 85, 85);
+}
+.wafiat-first-col2-row2--last-flex{
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+}
+.wafiat-first-col2-row2--last-flex img{
+    width: .4rem;
+    height: .5rem;
+}
+.wafiat-first-col3{
+    margin-top: 5rem;
+    width: 86%;
+}
+.wafiat-first-col4-row1{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: fit-content;
+    width: max-content;
+}
+.wafiat-first-col4{
+    margin-top: 5rem;
+    overflow: auto;
+}
+.css-1t3tnrj{
+    width: 1.3rem;
+    height: 1.3rem;
+    color: rgb(104, 103, 103);
+}
+.wafiat-first-col4-row1 div:first-child {
+    border: 2px solid rgb(224, 223, 223);
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    padding: .3rem 1.4rem .3rem .6rem;
+    border-radius: .3rem;
+}
+.wafiat-first-col4-row1 div:first-child input{
+    border: none;
+    outline: none;
+}
+.wafiat-first-col4-row1 .wafiat-first-col4div:first-child:hover{
+    border: 2px solid rgb(45,86,225);
+}
+.wafiat-first-col4-row1 a{
+    text-decoration: underline;
+    color: rgb(45,86,225);
+}
+.css-czxcdk {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    color: rgb(132, 142, 156);
+    font-size: 20px;
+    fill: rgb(132, 142, 156);
+    width: 1em;
+    height: 1em;
+}
+.wafiat-first-col4-row2{
+    display: flex;
+    gap: 1.4rem;
+    margin-top: 2rem;
+    width: fit-content;
+}
+.wafiat-first-col4-row2 div{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-size: 14.5px;
+    font-weight: bold;
+}
+.wafiat-first-col4-row3{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+.wafiat-first-col4-row3-col1{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    width: fit-content;
+    margin-top: 1.4rem;
+}
+.wafiat-first-col4-row3-col1-div1{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: 11rem;
+
+}
+.wafiat-first-col4-row3-col1-div2,
+.wafiat-first-col4-row3-col1-div3,
+.wafiat-first-col4-row3-col1-div4,
+.wafiat-first-col4-row3-col1-div5{
+    width: 8rem;
+
+}
+.wafiat-first-col4-row3-col1-div1 img{
+    width: 2rem;
+    height: 2rem;
+}
+.wafiat-first-col4-row3-col1-last{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: 28rem;
+}
+.wafiat-first-col4-row3-col1-last button{
+    background-color: inherit;
+    font-size: 14.6px;
+    color: rgb(45,86,225);
+    font-weight: bold;
+}
+.wafiat-first-col4-row4{
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.wafiat-first-col4-row4 svg{
+    width: 7rem;
+    height: 6rem;
+    margin-top: 5rem;
+}
+.wafiat-first-col4-row4 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 1080px){
+    .wafiat-first-col1{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: .5rem;
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+@media screen and (max-width: 790px){
+    .wafiat-first{
+        margin-top: 2rem;
+        width: 98%;
+    }
+    .wafiat-first-col3{
+        width: 100%;
+    }
+}

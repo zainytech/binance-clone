@@ -1,0 +1,295 @@
+.strate{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding-bottom: 6rem;
+}
+.straterow1{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #191919 0%, #2E2E2E 100%);
+}
+.strate1col1{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 2rem;
+}
+.strate1col1 h2{
+    color: #2D56E1;
+}
+.strate1col2{
+    background-color: black;
+    border: 1px solid #2D56E1;
+    padding: 3rem 3rem;
+    width: 34rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.strate1col2 div p{
+    margin-bottom: .3rem;
+}
+.straterow2{
+    margin: 2rem 0;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.strate2col1{
+    display: flex;
+    gap: .6rem;
+    text-align: center;
+    align-items: baseline;
+} 
+.strate2col1 p{
+    font-weight: bold;
+    font-size: 13.2px;
+}
+.strate2col1 p:first-child{
+    color: #2D56E1;
+}
+.strate2col2{
+    display: flex;
+    gap: 1rem;
+}
+.strate2col2 button{
+    display: flex;
+    gap: .4rem;
+    color: #2D56E1;
+    background-color: #161616;
+    padding: .5rem 1.5rem;
+    align-items: baseline;
+    border-radius: .5rem;
+}
+.straterow3{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding: 0 1.5rem;
+}
+.select-style{
+    width: 13rem;
+    outline: none;
+    padding: .3rem .6rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    background-color: #161616;
+}
+.strate3row2{
+    display: flex;
+    margin-top: .8rem;
+    gap: 1rem;
+}
+.strate3row1 p{
+   margin-bottom: .2rem;
+}
+.strate3row2 button{
+    background-color: #2D56E1;
+    color: white;
+    padding: 0 1.4rem;
+    height: 2.5rem;
+    border-radius: .4rem;
+}
+.straterow4{
+    margin: 3rem 0;
+    padding: 0 1.5rem;
+    color: white;
+}
+.strate4col1{
+    display: flex;
+    justify-content: space-between;
+}
+.strate4col1 div{
+    display: flex;
+    gap: 2rem;
+}
+.strate4col1 div div{
+    display: flex;
+    gap: 2rem;
+    align-items: baseline;
+    padding: .4rem 2rem .4rem .7rem;
+    font-size: 12px;
+    border-radius: .8rem;
+    width: max-content;
+    color: white;
+    margin: .5rem;
+    background-color: rgba(22, 22, 22, 0.5);
+}
+
+.strate4col1 div div button:first-child{
+    background-color: #2D56E1;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+}
+.strate4col1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.strate4col1 div p{
+    color: #2D56E1;
+}
+.straterow5{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+    width: 98%;
+    margin: auto;
+}
+.strate5col{
+    padding: 2rem;
+    border-radius: 1.4rem;
+    background-color: rgba(22, 22, 22, 0.5);
+}
+.strate5col div{
+    display: flex;
+    justify-content: space-between;
+}
+.starte5col2{
+    background-color: black;
+    padding: 1.5rem 2.5rem;
+    margin: .8rem 0;
+    border-radius: .8rem;
+}
+.starte5col2 div{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.strate5col button{
+    background-color: #2D56E1;
+    color: white;
+    font-weight: bold;
+    height: 2.5rem;
+    width: 100%;
+    margin-top: .5rem;
+    border-radius: .6rem;
+}
+.starte5col1 div{
+    display: flex;
+    gap: .3rem;
+}
+.starte5col1 div img{
+    width: .6rem;
+    height: 1rem;
+}
+.starte5col1 p:first-child{
+    font-weight: bold;
+}
+.staterow6{
+    width: 48%;
+    max-width: 88%;
+    margin: auto;
+    padding: 2rem 1.6rem;
+    position: absolute;
+    top: 16%;
+    left: 23%;
+    background-color: black;
+    border-radius: 1rem;
+}
+.staterow6 .rfpopupcol1 h6{
+    color: #2D56E1;
+}
+.staterow6 p{
+    width: 82%;
+    text-align: justify;
+    line-height: 1.2;
+    margin: 1rem 0;
+    opacity: .8;
+}
+.staterow6 .history3col2{
+    height: 3rem;
+    display: flex;
+    width: 12.6rem;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.staterow6 .history3col2 p:first-child{
+    width: 8.5rem;
+}
+.staterow6 .graph1agree{
+    margin-left: .4rem;
+}
+.state6row2{
+    background-color: #161616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .3rem .2rem .3rem .8rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    height: 2.6rem;
+    margin-bottom: 5rem;
+}
+@media screen and (max-width: 980px){
+    .straterow3{
+        flex-wrap: wrap;
+        gap: .4rem;
+    }
+    .select-style{
+        width: 11rem;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .straterow3{
+        flex-wrap: wrap;
+        gap: .4rem;
+    }
+    .select-style{
+        width: 11rem;
+    }
+    .strate1col1{
+        margin-left: 1rem;
+    }
+    .strate1col2{
+        width: 26rem;
+    }
+    .staterow6{
+        width: 92%;
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 626px){
+    .straterow1{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .strate1col2{
+        width: auto;
+    }
+    .select-style{
+        width: 9rem;
+    }
+    .straterow2{
+        padding: 0 1rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .straterow4{
+        padding: 0 1rem;
+    }
+    .strate4col1{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .strate4col1 div{
+        gap: 1rem;
+        font-size: 14px;
+    }
+    .strate4col1 div div{
+        gap: .5rem;
+        width: auto;
+        margin: 1rem 0;
+        padding: .4rem .5rem;
+    }
+}
+

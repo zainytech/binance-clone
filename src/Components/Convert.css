@@ -1,0 +1,137 @@
+.convert{
+    overflow: hidden;
+    color: black;
+    padding: 2rem 3rem;
+}
+.convert-row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.convert-row1 button{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .7rem 1.4rem;
+    font-weight: 600;
+    border-radius: .4rem;
+}
+.css-hfx4ru{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.convert-row2-col2 button{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+.convert-row2-col2 .fa-solid{
+    font-size: 1rem;
+}
+.convert-row2{
+    width: 34%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.convert-row2-col1{
+    display: flex;
+    gap: .8rem;
+    /* margin-top: 1rem; */
+}
+.convert-row2-col1 button{
+    padding: .6rem 1.6rem;
+    border-radius: .4rem;
+    font-weight: 600;
+}
+.convert-row2-col2{
+    display: flex;
+    align-items: right;
+    text-align: right;
+    justify-content: right;
+    margin-top: 1rem;
+    font-size: 12px;
+    font-weight: 600;
+}
+.convert-row2-col2 button{
+    padding: .6rem 1.6rem;
+}
+.convert-row2-col3{
+    /* border: 1px solid gray; */
+    /* margin: 1rem; */
+    padding: 1rem;
+    background-color: rgb(238, 238, 238);
+    border-radius: .6rem;
+}
+.convert-row2-col3-row1{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    color: gray;
+}
+.wastate-sec-row3-col-col2{
+    width: 69%;
+    outline: none;
+    border: none;
+    padding: 1rem .3rem;
+    border-radius: .4rem;
+}
+.convert-row2-col3-row2{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.convert-row2-col4{
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+    border-radius: 50%;
+}
+
+.convert-row2-btn{
+    background-color: blue;
+    height: 2.8rem;
+    width: 99%;
+    margin: 1rem auto;
+    border-radius: .6rem;
+    font-weight: 600;
+}
+.convert .bapi-row9{
+    padding: 2rem 4rem;
+}
+
+
+@media screen and (max-width: 820px){
+    .convert{
+        overflow: hidden;
+        color: black;
+        padding: 2rem 1rem;
+    }   
+    .convert-row2{
+        width: 94%;
+    }
+    .convert .bapi-row9{
+        padding: 2rem 1rem;
+    }
+}
+@media screen and (max-width: 520px){
+    .convert-row1{
+        flex-direction: column;
+        gap: .6rem;
+    }
+    .convert-row2-col3-row2{
+        flex-direction: column;
+        gap: .8rem;
+    }
+    .wastate-sec-row3-col-col2{
+        width: 98%;
+    }
+    .wastate-sec-row3-col-col1{
+        width: 98%;
+    }
+}

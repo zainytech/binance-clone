@@ -1,0 +1,144 @@
+.waearn{
+    display: flex;
+    overflow: hidden;
+    color: black;
+    width: 100%;
+}
+.waearn-sec{
+    width: 82%;
+    padding: 2rem 1.4rem;
+}
+
+.waearn-sec-row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+.waearn-sec-row1-col2{
+    display: flex;
+    align-items: center;
+    gap: 4.6rem;
+    text-align: center;
+}
+.waearn-sec-row1-col2-col1 div{
+    opacity: .8;
+}
+.waearn-sec .waoverview-hr{
+    margin: 2rem 0;
+}
+.waearn-sec-row2{
+    display: flex;
+    gap: 2rem;
+    width: max-content;
+}
+.waearn-sec-row2 button{
+    width: 8.2rem;
+    height: 2.2rem;
+    font-size: 15px;
+    border-radius: .3rem;
+}
+.waearn-sec-row2 .active{
+    background-color: rgb(45,86,225);
+    color: white;
+    font-weight: bold;
+}
+.waearn-sec-row3{
+    margin: 3rem 0;
+}
+.waearn-sec-row3 .wamargin-first-col2-sec-col2 h5{
+    color: green;
+}
+.waearn-sec-row3 .wamargin-first-col2-sec-col2{
+    flex-wrap: wrap;
+}
+.waearn-sec-row3-col1{
+    margin: 2rem 0;
+    display: flex;
+    gap: .2rem;
+}
+.waearn-sec-row3-col1 button{
+    padding: .5rem 1.2rem;
+    background-color: inherit;
+    border-radius: .3rem;
+    font-size: 13px;
+}
+.waearn-sec-row3-col1 .active{
+    background-color: rgb(235, 235, 235);
+}
+.waearn-sec-row3-col2{
+    margin: 1rem 0;
+    overflow: auto hidden;
+}
+.waearn-sec-row3-col2::-webkit-scrollbar {
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+}
+.waearn-sec-row3-col2::-webkit-scrollbar, ::-webkit-scrollbar {
+    width: 4px;
+    height: 10px;
+}
+.waearn-sec-row3-col2::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    background-color: rgb(183, 189, 198);
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    transition: all 1s ease-out 0s;
+}
+.waearn-sec-row3-col2:-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    height: 90px;
+}
+.waearn-sec-row3-col2-row1{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    width: max-content;
+    background-color: rgb(245, 244, 244);
+    border-radius: .2rem;
+    padding: .2rem 0;
+}
+
+.waearn-sec-row3-col2-row1 div{
+    width: fit-content;
+    padding: .2rem .5rem;
+    opacity: .8;
+}
+.waearn-sec-row3-col2-row2{
+    margin: auto;
+}
+#waearn-sec-row3-flexw{
+    display: flex;
+    gap: 12rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+.waearn-sec-row3-col2-row13{
+    gap: 16rem;
+}
+.wamargin-first-col2-sec-col6{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.wamargin-first-col2-sec-col6 button{
+    background-color: rgb(235, 235, 235); 
+    padding: .3rem 1rem; 
+    border-radius: .4rem; 
+}
+.wamargin-first-col2-sec-col6 a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 790px){
+    .waearn-sec{
+        width: 82%;
+        margin-top: 2rem;
+        padding: 2rem 1.4rem;
+    }
+    
+}
+

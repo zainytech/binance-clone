@@ -1,0 +1,170 @@
+.security-start{
+   display: flex;
+   gap: 2rem;
+   background-color: black;
+   color: white;
+   overflow: hidden;
+}
+.blur1{
+    color: #2D56E1;
+}
+
+.security{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    padding-top: 1.5rem;
+    padding-right: 1.4rem;
+    color: white;
+    margin-top: 2rem;
+    position: relative;
+}
+.sec2{
+    display: flex;
+    width: 97%;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.sec-authen{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    background-color: black;
+}
+
+.sec-authen>a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.sec-authen .fa-solid{
+    font-size: 1rem;
+    margin-right: .3rem;
+    color: blue;
+}
+
+#rm1{
+    text-decoration: none;
+}
+
+.sec-anchor{
+   text-decoration: none;
+}
+
+.css-xfrea7 {
+    width: 108px;
+    margin-top: -3rem;
+}
+.css-1iztezc{
+    width: 1rem;
+}
+
+
+.securit1{
+    display: grid;
+    flex-direction: column;
+    margin: 1rem 0;  
+    background-color: black; 
+}
+
+.security-head{
+    height: 11vh;
+}
+.security-content{
+    display: flex;
+    gap: 1rem;
+}
+
+.security-data{
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+}
+
+.security-heading{
+    max-width: 27.4rem;
+}
+
+.security-links{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.check-link{
+    display: flex;
+    gap: .5rem;
+}
+
+.check-link .check-icon{
+   margin-top: .5rem;
+}
+
+.security .securit1 .security-img{
+    width: 25px;
+}
+
+.security .securit2{
+    width: 16%;
+}
+
+.buttons{
+    display: flex;
+    gap: .4rem;
+}
+
+.buttons button{
+    width: 5.2rem;
+    height: 2.2rem;
+    border-radius: .5rem;
+    color: rgb(234, 236, 239);
+    background-color: #083ff7;
+}
+
+.an-change{
+    display: none;
+}
+
+
+@media only screen and (max-width: 920px){
+    .security .securit1{
+        padding-right: 0;
+    }
+    .security-content{
+        flex-direction: column;
+    }
+
+    .security-head{
+        margin: 1.5rem 0;
+    }
+
+    .security-data{
+        width: 100%;
+    }
+
+    .sec-authen{
+        flex-direction: column;  
+        gap: .6rem;     
+    }
+
+    .sec2{
+        width: 90%;
+    }
+
+    .css-xfrea7{
+        margin-top: 1.2rem;
+        width: 96px;
+    }
+    .security-links{
+        gap: 3.5rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 920px){
+    .security{
+        font-size: 78%;
+    }
+}

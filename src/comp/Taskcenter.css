@@ -1,0 +1,206 @@
+.task{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+.task-first{
+    width: 82%;
+    /* color: black; */
+    padding: 2rem 1rem 0 1rem;
+
+}
+.css-ao1nt3{
+    width: 4rem;
+    height: 4rem;
+}
+.css-du28g9{
+    width: 1.7rem;
+    color: blue;
+    /* color: rgb(110, 110, 110); */
+}
+.css-1j6co9r1{
+     width: 1.3rem;
+     color: blue;
+    /* color: rgb(110, 110, 110); */
+}
+.task-col1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+.task-col2{
+    display: flex;
+    gap: 3rem;
+}
+.task1{
+    width: 67%;
+}
+.task2{
+    width: 28%;
+    margin-top: 2.5rem;
+    color: white;
+}
+.css-du28g8{
+    width: 2.3rem;
+}
+.task2-col1{
+    margin-bottom: 1rem;
+    color: white;
+    /* color: rgb(112, 122, 138); */
+    line-height: 1.3em;
+}
+.task2-col1 h6{
+    margin-bottom: 1rem;
+}
+.stand2-comm{
+    display: flex;
+    gap: .7rem;
+    margin-bottom: .8rem;
+    line-height: 1.4em;
+}
+.stand2-comm a{
+    text-decoration: none;
+    text-decoration: underline;
+    cursor: pointer;
+    /* color: rgb(112, 122, 138); */
+    color: white;
+}
+.task-search{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 7.6rem ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: .1em;
+    color: rgb(112, 122, 138);
+}
+.task-btn{
+    display: flex;
+    gap: 1rem;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+.task-btn button{
+    background-color: blue;
+    padding: .5rem 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    outline: none;
+    border-radius: .4rem;
+}
+.task-btn .task-btn1{
+    background-color: blue;
+}
+.tasklimit1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+.limit-col1{
+    display: flex;
+    gap: .7rem;
+    margin: 1.4rem 0;
+}
+.limit-col1 img{
+    width: 2.9rem;
+    height: 2.9rem;
+}
+.limit-row2{
+    display: flex;
+    border-radius: .5rem;
+}
+.limit-row2 button{
+    padding: .4rem .6rem;
+    border: 1px solid blue;
+}
+.limit-row2 :first-child{
+  display: flex;
+  gap: .2rem;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  border-top-left-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+  color: white;
+}
+.limit-row2 :last-child{
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    color: black;
+}
+.css-ew2l8i{
+    width: 1rem;
+}
+.limit-row1{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+.limit-row1 a {
+    color: blue;
+    cursor: pointer;
+}
+.limit-row1 a:hover{
+    opacity: .7;
+}
+.limit-col2 button{
+    padding: .5rem 1.5rem;
+    border-radius: .4rem;
+    color: black;
+    background-color: blue;
+    font-weight: 600;
+}
+@media screen and (max-width: 1020px){
+    .task-first{
+        width: 98%;
+        margin-top: 3rem;
+    }
+    .task-col2{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .task1{
+        width: 100%;
+    }
+    .task2{
+        width: 80%;
+        margin-top: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .task-search{
+        margin: 7.6rem 0;
+    }
+    .limit-col1 img{
+        width: 2.2rem;
+        height: 2.2rem;   
+    }
+    .limit-col1{
+        gap: .5rem;
+        margin: 1.4rem 0;
+    }
+    .tasklimit1{
+        align-items: flex-start;
+        margin-right: 0rem;
+    }
+    .limit-col2 button{
+        margin-top: 1rem;
+        padding: .4rem .9rem;
+    }
+    .css-du28g8{
+        width: 2.3rem;
+    }
+    
+}
+

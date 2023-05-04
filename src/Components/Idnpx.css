@@ -1,0 +1,351 @@
+.domain{
+    background-color: black;
+    line-height: 1.2em;
+    overflow: hidden;
+    color: white;
+}
+.domain h1,h2,h3,h4,h6,h5{
+    font-family: 'Montserrat';
+}
+.dom-row1{
+    background-color: black;
+    display: flex;
+    gap: 3rem;
+}
+.dom1-col1{
+    width: 59%;
+    padding: 9rem 1rem ;
+}
+.dom1-col1 h2{
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48.7px;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.dom1-col1 p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-top: .4rem;
+}
+.dom1-col1 div{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.dom1-col1 div button{
+    background-color: #2D56E1;
+    padding: 11px 38px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+.dom1-col1 div button:last-child{
+  background-color: rgb(49, 49, 49);
+  color: #2D56E1;
+}
+.dom1-col2{
+    flex: 1;
+}
+.dom1-col2 img{
+    width: 350.46px;
+    height: 470px;
+    margin-top: 1rem;
+}
+.dom-row2{
+    background-color: black;
+    color: white;
+} 
+.dom2col{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    margin-top: 2rem;
+}
+.dom2-rec{
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    border-radius: 12rem;
+    background: rgba(22, 22, 22, 0.5);
+    box-shadow: 0px 10px rgba(22, 22, 22, 0.1);
+    left: calc(50% - 1384px/2);
+    backdrop-filter: blur(54.5px);
+    border-radius: 22px;
+}
+.dom2-rec .dom2-img{
+    position: absolute;
+    width: 660px;
+    height: 503px;
+    left: -44px;
+    top: -217px;
+    background: #2D56E1;
+    opacity: 0.1;
+    filter: blur(111px);
+}
+.dom2-data{
+   color: white;
+   display: flex;
+   flex-direction: column;
+   padding: 7rem 2rem 2rem 40rem;
+}
+.dom2h{
+    display: flex;
+    justify-content: center;
+}
+.dom-row2 h1{
+    display: flex;
+    gap: 1rem;
+}
+.dom-row2 span{
+    color: #2D56E1;
+}
+
+.dom3-data{
+   display: flex;
+   flex-direction: column;
+   padding: 7rem 2rem 2rem 4rem;
+}
+.dom3-img{
+   position: absolute;
+    width: 901px;
+    height: 533px;
+    left: 567px;
+    top: -207px;
+    background: #2D56E1;
+    opacity: 0.1;
+    filter: blur(111px);
+}
+.dom-row3{
+    color: white;
+}
+.dom3h{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(22, 22, 22, 0.5);
+    padding: 3rem 0;
+    margin-top: 4rem;
+    margin-bottom: -1.2rem;
+}
+.dom-row3 h1{
+    display: flex;
+    gap: 1rem;
+}
+.dom-row3 span{
+    color: #2D56E1;
+}
+.dom5grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+    padding: 2rem 0;
+    width: 96%;
+    margin: auto;
+}
+.dom5grid button{
+    background-color: #2D56E1;
+    padding: 6px 16px;
+    border-radius: 8px;
+    color: white;
+    margin-top: .5rem;   
+}
+.dombin3{
+    width: 15rem;
+    height: auto;
+}
+.domrow4{
+    display: flex;
+    gap: 17rem;
+    padding: 1.5rem 4rem;
+    margin: 2rem 0;
+}
+.dom4col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: .5rem 1rem;
+    width: fit-content;
+}
+.dom4col1 div{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+.domde4col1 p{
+    text-align: justify;
+    max-width: fit-content;
+}
+.dom-btn{
+    background-color: #2D56E1;
+    padding: 8px 28px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    max-width: max-content;
+    margin-top: .5rem;
+}
+.domrow5{
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.domrow6{
+    color: white;
+    margin: 4rem 0;
+}
+.domrow6 h2{
+    color: white;
+    padding: 1rem 1.6rem;
+}
+.dom6flex{
+    margin: .5rem 1rem;
+    background-color: rgba(22, 22, 22, 0.5);
+    display: flex;
+    gap: 2rem;
+    align-items: baseline;
+    padding: .4rem 1rem;
+    font-size: 12px;
+    border-radius: 1rem;
+    width: max-content;
+    color: white;
+}
+.dom6flex p:first-child{
+    background-color: #2D56E1;
+    padding: .5rem 1.2rem;
+    border-radius: .8rem;
+}
+.domrow7{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    margin: 4rem 0;
+}
+.dom7row1{
+    /* display: grid; */
+    /* grid-template-columns: minmax(reapeat); */
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    padding: 2rem 0;
+    width: 98%;
+    margin: auto;
+}
+.dom7col2{
+    display: flex;
+    gap: .6rem;
+}
+.fa-minus, .fa-plus{
+    font-size: .8rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: .2rem;
+}
+.bitcoin{
+    width: 38rem;
+    padding: 1.8rem 2rem;
+    text-align: justify;
+    border-radius: 1rem;
+    background-color: rgba(22, 22, 22, 0.5);
+}   
+.bit1{
+    display: flex;
+    color: white;
+    background-color: inherit;
+    height: auto;
+}
+.domrow8{
+    background-color: #2D56E1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+    padding: 2rem 0;
+    margin: 8rem 0 0 0;
+}
+.domrow8 button{
+    background-color: white;
+    padding: 8px 28px;
+    border-radius: 8px;
+    color: #2D56E1;
+    font-weight: bold;
+    max-width: max-content;
+    margin-top: .5rem;
+}
+
+@media screen and (max-width: 980px){
+    .dom2-data{
+        display: flex;
+        flex-direction: column;
+        padding: 7rem 1rem 4rem 7rem;
+     }
+     .domrow4{
+        gap: 5rem;
+        padding: 1.5rem;
+    }
+    .dom4col1{
+        text-align: justify;
+    }
+    .dom6flex{
+        flex-wrap: wrap;
+        gap: 1rem;
+        width: auto;
+    }
+}
+@media screen and (max-width: 730px){
+    .dom-row1{
+        flex-direction: column;
+        gap: 0;
+    }
+    .dom1-col1{
+        width: 98%;
+        padding: 5rem 1rem ;
+    }
+    .dom1-col1 h2{
+        font-size: 32px;
+    }
+    
+    .dom1-col1 p{
+        font-size: 10px;
+    }
+    .dom1-col2{
+        width: 100%;
+    }
+    .dom1-col2 img{
+        width: 70%;
+        margin: auto;
+        height: 30%;
+        display: grid;
+        place-items: center;
+        margin-bottom: 1rem;
+    }
+    .dom-row2 h1, .dom3h h1{
+        display: grid;
+        place-items: center;
+        font-size: 30px;
+        line-height: .8em;
+        margin: 1rem 0;
+    }
+    .dom2-data{
+        padding: 5rem 1rem;
+     }
+     .hidedata{
+        display: none;
+     }
+     .traderow4{
+        flex-direction: column;
+     }
+}
+

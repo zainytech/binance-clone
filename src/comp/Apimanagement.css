@@ -1,0 +1,74 @@
+.management{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+.manage-first{
+    padding: 2.4rem 2rem;
+    width: 82%;
+    /* color: black; */
+}
+
+.management-first{
+    display: flex;
+    justify-content: space-between;
+}
+
+.management-first div{
+    display: flex;
+    gap: .6rem;
+}
+
+.api-btn{
+    color: white;
+    background-color: #383838;
+    height: 2.5rem;
+    padding: .1rem .8rem;
+    border-radius: .5rem;
+}
+.management-sec{
+    margin-top: 2rem;
+    padding: 0 1rem;
+    color: rgb(192, 185, 185);
+}
+
+.api-btn :first-child{
+    background-color: blue;
+}
+.api-search{
+    display: flex;
+    gap: 2rem;
+    margin-top: 12rem;
+    margin-bottom: 5.2rem;
+    text-align: center;
+}
+@media screen and (max-width: 1020px){
+    .manage-first{
+        margin-top: 2rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 867px){
+    .manage-first{
+        margin-top: 2rem;
+        padding: 2rem 2.5rem;
+        width: 100%;
+    }
+    .management-first{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 486px){
+    .management-first div{
+        flex-wrap: wrap;
+    }
+    .manage-first{
+        padding: 2rem 1rem;
+    }
+
+}

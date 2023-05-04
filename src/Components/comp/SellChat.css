@@ -1,0 +1,394 @@
+.sellchat-main{
+    background-color: #1E1E1E;
+
+}
+.sellchat-main-bg-img{
+    height:auto;
+    width:100%;
+    background: rgba(7, 7, 7, 0.9);
+}
+.sellchat-main-bg-img img{
+    height:inherit;
+    width:inherit;
+}
+
+.sellchat-content{
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+
+    /* background-color: rgb(42, 105, 160); */
+}
+.sellchat-content-container{
+    /* background-color: aqua; */
+    margin-left:5rem;
+    margin-right:5rem;
+}
+.sellchat-content-head{
+    display: block;
+    position: relative;
+    margin-top:5rem;
+    /* border:red solid 2px; */
+}
+.sellchat-content-head-div1{
+    margin-top:1rem;
+}
+.sellchat-content-head-div1-img1{
+    margin-right:1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.sellchat-content-head-div1-img2{
+    display:none;
+    cursor: pointer;
+}
+.sellchat-content-head-div1-txt{
+    font-size: 32px;
+    font-weight: 500;
+    color:white;
+}
+.sellchat-content-head-div1-txt2{
+    display:block;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+}
+.sellchat-content-head-div1-txt2-active{
+    color:#5F83FF;
+}
+
+
+.sellchat-content-box{
+position:relative;
+padding-top:5rem;
+color:white;
+height:auto;
+display:flex;
+/* border: green 4px solid; */
+
+}
+.sellchat-content-box1{
+    width:50%;
+    position:absolute;
+    /* left:0; */
+    /* border:red solid 2px; */
+}
+.sellchat-content-box2{
+    width:50%;
+    /* border:red solid 2px; */
+}
+
+.sellchat-content-box1-main{
+    background-color: black;
+    width:25rem;
+    border-radius:1rem;
+}
+.sellchat-content-box1-container{
+    margin:0.5rem;
+    padding:2rem;
+    /* border:pink 2px solid; */
+}
+.sellchat-content-box1-div1a{
+    position: relative;
+    margin-top:1rem;
+}
+.sellchat-content-box1-div1a-txt1{
+    font-size: 16px;
+    font-weight: 500;
+}
+.sellchat-content-box1-div1a-txt2{
+    position:absolute;
+    right:0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sellchat-content-box1-div2{
+    text-align: center;
+    margin-top:1rem;
+}
+
+
+.sellchat-content-box1-div3{
+/* border: red solid 2px; */
+border-radius:1rem;
+background-color: #161616;
+margin-top:15rem;
+padding:2rem;
+}
+.sellchat-content-box1-div3-container button{
+    color:white;
+    padding:1rem;
+border-radius:1rem;
+font-size: 16px;
+font-weight: 500;
+}
+.sellchat-content-box1-div3-btn1{
+    width:30%;
+    margin-right: 1rem;
+    background-color: #F64646;
+}
+.sellchat-content-box1-div3-btn2{
+    width:65%;
+    background-color: #2D56E1;
+}
+
+
+/* box2 styling/////////// */
+
+
+.sellchat-content-box2-main{
+    background-color: #080808;
+    width:25rem;
+    /* padding-bottom:5rem; */
+    position: absolute;
+    right:0;
+    border-radius:1rem;
+}
+.sellchat-content-box2-container{
+    margin:0.5rem;
+    padding:2rem;
+    /* border:pink 2px solid; */
+    position:relative;
+}
+.sellchat-content-box2-div1{
+    display:flex;
+}
+.sellchat-content-box2-div1a{
+    padding:1rem;
+background-color: #363636;
+border-radius: 1rem;
+    width:70%;
+}
+.sellchat-content-box2-div1a-txt1{
+    font-size: 16px;
+    font-weight: 500;
+    }
+.sellchat-content-box2-div1a-txt2{
+margin-left:1rem;
+margin-top:1.5rem;
+font-size: 10px;
+font-weight: 400;
+}
+.sellchat-content-box2-div2{
+    display:flex;
+    /* border: red 2px solid; */
+    margin-top:0.5rem;
+    position: absolute;
+    right:2rem;
+
+}
+.sellchat-content-box2-div2a{
+    padding:1rem;
+background-color: #2D56E1;
+border-radius: 1rem;
+
+}
+
+.sellchat-content-box2-div2a-txt2{
+    margin-right:1rem;
+    margin-top:1rem;
+    font-size: 10px;
+    font-weight: 400;
+}
+.sellchat-content-box1-div3-container{
+display:flex;
+    /* gap:1rem; */
+}
+.sellchat-content-box1-div3-container input{
+    padding:1.6rem;
+    border-radius: 0.7rem;
+    background-color: #080808;
+    width:70%;
+    color:white;
+    display:flex;
+    font-size: 16px;
+    height:2.2rem;
+}
+.sellchat-content-box1-div3-btn3{
+    background-color: #2D56E1;
+    margin-left:1rem;
+    width:30%;
+}
+
+@media screen and (max-width: 1100px) {
+    .sellchat-main{
+        background-color: #1E1E1E;
+        height:60rem;
+
+    }
+    .sellchat-main-bg-img{
+        height:100%;
+        width:100%;
+        background: rgba(7, 7, 7, 0.9);
+    }
+}
+@media screen and (max-width: 980px) {
+    .sellchat-main{
+        background-color: #1E1E1E;
+        height:60rem;
+
+    }
+    .sellchat-main-bg-img{
+        height:100%;
+        width:100%;
+        background: rgba(7, 7, 7, 0.9);
+    }
+    .sellchat-content-head{
+        display: block;
+        position: relative;
+    }
+.sellchat-content-head-div1-resp{
+    text-align: center;
+}
+.sellchat-content-head-div1-img1{
+    position: absolute;
+    left:0;
+    top:1rem;
+}
+.sellchat-content-head-div1-img2{
+    display:block;
+    position: absolute;
+    right:0;
+    top:1rem;
+}
+    .sellchat-content-box{
+        display:block;
+        }
+        .sellchat-content-box1{
+            display: block;
+            margin-top:-4rem;
+        }
+        .sellchat-content-box2-main{
+            left:0;
+            
+        }
+        .sellchat-content-box2{
+            display: none;
+        }
+.sellchat-content-box2-onclick{
+    display:block;
+}
+
+    
+}
+
+@media screen and (max-width: 550px) {
+    .sellchat-main{
+        background-color: #1E1E1E;
+        height:50rem;
+
+    }
+    .sellchat-main-bg-img{
+        height:100%;
+        width:100%;
+        background: rgba(7, 7, 7, 0.9);
+    }
+    
+    .sellchat-content-container{
+        /* background-color: aqua; */
+        margin-left:2rem;
+        margin-right:2rem;
+    }
+
+.sellchat-content-box1-main{
+    width:18rem;
+
+    border-radius:0.5rem;
+}
+.sellchat-content-box1-container{
+    margin:1rem;
+    padding:1rem;
+    /* border:pink 2px solid; */
+}
+.sellchat-content-box1-div1a-txt1{
+    font-size:13px;
+}
+.sellchat-content-box1-div1a-txt2{
+    font-size:16px;
+}
+
+.sellchat-content-box1-div3{
+    padding:1.5rem;
+}
+    .sellchat-content-box1-div3-container button{
+        padding:0.5rem;
+    border-radius:0.5rem;
+}
+
+
+.sellchat-content-box2-main{
+    width:18rem;
+    padding:0.3rem;
+    border-radius:0.5rem;
+}
+.sellchat-content-box2-container{
+    margin:0.3rem;
+}
+
+.sellchat-content-box2-div1a{
+    padding:0.7rem;
+    border-radius: 0.5rem;
+}
+.sellchat-content-box2-div1a-txt1{
+    font-size: 10px;
+    }
+.sellchat-content-box2-div1a-txt2{
+font-size: 7.63px;
+}
+.sellchat-content-box2-div2a{
+    padding:0.7rem;
+    border-radius: 0.5rem;
+}
+
+.sellchat-content-box2-div2a-txt2{
+    font-size: 7.63px;
+}
+.sellchat-content-box1-div3-container input{
+    padding:1.2rem;
+    border-radius: 0.5rem;
+    font-size: 10px;
+}
+.sellchat-content-box1-div3-btn3{
+    font-size: 10px !important;
+}
+
+}
+
+@media screen and (max-width: 360px) {
+    .sellchat-content-container{
+        /* background-color: aqua; */
+        margin-left:1rem;
+        margin-right:1rem;
+    }
+    .sellchat-content-box{
+        padding-top:9rem;
+    }
+    .sellchat-content-box1-main{
+        width:15rem;
+        padding:0.5rem;
+        border-radius:0.3rem;
+    }
+    .sellchat-content-box1-container{
+        margin:0rem;
+    }
+    .sellchat-content-box1-div3{
+        padding:1rem;
+    }
+        .sellchat-content-box1-div3-container button{
+            padding:0.3rem;
+            font-size:12px;
+        border-radius:0.3rem;
+    }
+    .sellchat-content-box2-main{
+        width:15rem;
+        top:0rem;
+        padding:0.5rem;
+        border-radius:0.3rem;
+    }
+    .sellchat-content-box2-container{
+        margin:0rem;
+    }
+}

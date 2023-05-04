@@ -1,0 +1,154 @@
+.history{
+    display: flex;
+    gap: 1rem;
+    color: white;
+    background-color: black;
+}
+.historycol1{
+    width: 17%;
+    padding: 1rem;
+    color: white;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hist-btn{
+    display: flex;
+    justify-content: space-between;
+    background-color: inherit;
+    width: 12rem;
+    place-items: center;
+}
+.hist-div{
+    margin: .5rem 0;
+    line-height: 2.5;
+}
+.css-18aifpu{
+    color: white;
+}
+.historycol2{
+    width: 58%;
+}
+.historycol3{
+    width: 22%;
+    background-color: #161616;
+    padding: 2rem 1.6rem;
+    border-radius: 1rem;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    position: absolute;
+    top: 16%;
+    right: 2%;
+}
+.history3row1{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+.history3row1 p{
+    opacity: .8;
+}
+.hist-div p{
+    cursor: pointer;
+}
+.hist-div p:hover{
+    color: blue;
+    opacity: .8;
+}
+.hist2-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 3rem .8rem;
+    justify-content: baseline;
+    align-items: baseline;
+}
+.hist2-div p{
+    width: 14.7rem;
+    display: grid;
+    height: 3.4rem;
+    place-items: center;
+    background-color: #161616;
+    border-radius: .6rem;
+    cursor: pointer;
+}
+.hist2none{
+    display: none;
+}
+.row2-data{
+    margin: 2rem 1rem;
+}
+.row2-data h2{
+    margin: 1rem 0;
+}
+.row2-data div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    line-height: .5;
+    align-items: center;
+}
+.row2-data div p:hover{
+    color: blue;
+    opacity: .8;
+}
+.hist-listing{
+    background-color: #161616;
+    color: blue;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+    padding: .8rem 1.4rem;
+    gap: 1rem;
+    font-size: 16px;
+    place-items: center;
+    border-top-right-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+    position: absolute;
+    top: 10%;
+    left: -1%;
+    display: none;
+    cursor: pointer;
+}
+
+.hist-listing img{
+    width: .8rem;
+    height: .9rem;
+}
+@media screen and (max-width: 920px){
+    .history{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .historycol1{
+        display: none;
+    }
+    .historycol2{
+        width: 90%;
+        margin: auto;
+
+    }
+    .historycol3{
+        width: 88%;
+        margin: auto;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+    .history3row1 div{
+        width: 80%;
+    }
+    .row2-data{
+        margin: 6rem 0 2rem 0;
+    }
+    .hist-listing{
+        display: flex;
+    }
+    .hist2-div{
+        margin-top: 6rem;
+    }
+}

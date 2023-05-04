@@ -1,0 +1,126 @@
+.setting{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.setting-first{
+    width: 82%;
+    padding: 1rem .5rem 1rem 2rem;
+    /* color: black; */
+}
+.css-1iztezc{
+    width: 1.6rem;
+}
+.css-mls08q{
+    width: 5rem;
+}
+.sett1-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+.sett1-body{
+    margin: 3rem 0;
+}
+.sett1-col1{
+    display: flex;
+    justify-content: space-between;
+    gap: 3.5rem;
+    margin-top: 1.8rem;
+    line-height: 1.5em;
+}
+.sett1-row1{
+    display: flex;
+    flex: 1.2;
+    gap: .6rem;
+}
+.sett1-row1 p{
+    color: rgb(197, 198, 199);
+}
+.sett1-row2{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+.sett1-row2 p{
+    font-weight: 600;
+    font-size: 13px;
+}
+.sett1-row2 button{
+    width: 5.5rem;
+    height: 2.3rem;
+    color: white;
+    font-weight: bold;
+    background-color: #2D56E1;
+    border-radius: .6rem;
+}
+.anony-none{
+   display: hidden;  
+}
+.css-kddq4d{
+   width: 1.2rem;
+   color: green;
+}
+.row-tick{
+    display: flex;
+    gap: .3rem;
+    width: 17rem;
+}
+.row-tick p{
+    font-size: 12.5px;
+}
+.sett2-col1{
+    margin: 1rem 0;
+}
+.sett2-col2{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    margin-top: .6rem;
+}
+.sett2-row1{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-left: 2.2rem;
+}
+.person{
+    width: 2.8rem;
+}
+.sett2-row2{
+    flex: 1.05;
+}
+.sett2-row2 h6{
+    font-size: 14px;
+}
+.sett2-row2 p{
+    color: rgb(197, 198, 199);
+}
+
+@media only screen and (max-width: 980px){
+   .setting-first{
+    width: 100%;
+    margin-top: 3rem;
+   }
+}
+
+@media only screen and (max-width: 810px){
+   .sett1-col1{
+    flex-direction: column;
+    gap: .8rem;
+   }
+}
+
+@media only screen and (max-width: 810px){
+    .sett2-row1{
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-left: 2.1rem;
+    }
+
+}
+

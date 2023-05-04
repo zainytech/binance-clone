@@ -1,0 +1,438 @@
+.waoverview{
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    height: 100%;
+    color: black;
+}
+.css-19ss7aa {
+    box-sizing: border-box;
+    margin: 0px 8px 0px 16px;
+    min-width: 0px;
+    color: rgb(45,86,225);
+    font-size: 24px;
+    fill: rgb(45,86,225);
+    width: 1.2em;
+    height: 1.2em;
+    flex-shrink: 0;
+}
+.waoverview-first{
+  width: 15rem;
+  border-right: 1px solid rgb(224, 223, 223);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+.waoverview-first div{
+    display: flex;
+    padding: .8rem .8rem .8rem .4rem;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+    border-left: 5px solid white;
+}
+
+.waoverview-first .fun-first{
+    font-weight: bold;
+    background-color: white;
+    height: 3.4rem;
+}
+.active .fun-sec{
+    border-color: rgb(45,86,225);
+    background-color: rgb(233, 232, 232);
+}
+
+/* .waoverview-first .fun-sec{
+    background-color: inherit;
+    border-left: 5px solid white;
+} */
+.waoverview-sec{
+    width: 82%;
+    padding: 1.6rem 1.4rem;
+    color: black;
+}
+.waoverview-sec h1{
+    font-size: 2rem;
+}
+.waoverview-sec-full{
+    display: flex;
+    width: 100%;
+}
+.waoverview-sec-col1-row1 div{
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+}
+.waoverview-sec-col1-row1 div .fa-solid{
+    font-size: .9rem;
+    opacity: .7;
+}
+.waoverview-sec-col1-row1 div .fa-solid:hover{
+    opacity: 1;
+}
+.waoverview-sec-col1-row1 h4{
+    margin-top: .8rem;
+}
+.waoverview-sec-col2{
+    width: 28%;
+    margin-top: 2.5rem;
+}
+.waoverview-sec-col2 .waoverview-sec-col2-2p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.waoverview-sec-col2 .waoverview-sec-col2-2p div:first-child{
+    font-size: 16px;
+    font-weight: bold;
+}
+.waoverview-sec-col2 .waoverview-sec-col2-2p div:last-child{
+    background-color: rgb(218, 218, 218);
+    padding: .2rem .4rem;
+    border-radius: .2rem;
+}
+.css-1c070tq{
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+}
+.waoverview-sec-col2-trans{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    align-items: center;
+    justify-content: center;
+    opacity: .6;
+}
+.waoverview-sec-col1-row2{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 88%;
+}
+.waoverview-sec-col1-row2-col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.waoverview-sec-col1-row2-col p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.waoverview-sec-col1-row2-col a{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.waoverview-sec-col1-row2-col a:hover{
+color: rgb(45,86,225);   
+}
+.waoverview-sec-col1-row3{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+}
+.waoverview-sec-col1-row3-full{
+    display: flex;
+    gap: 1.8rem;
+    align-items: center;
+}
+.waoverview-sec-col1-row3-img{
+    width: 3rem;
+}
+.waoverview-sec-col1-row3-col div{
+    display: flex;
+    gap: .6rem;
+}
+.waoverviewsec-col1{
+    width: 78%;
+    margin-top: 3rem;
+}
+.waoverview-sec-col1-row3-hot{
+    background-color: red;
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    height: 1.2rem;
+    width: 1.8rem;
+    border-radius: .2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.waoverview-sec-col1-row3-col div a{
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+}
+.waoverview-sec-col1-row3-button{
+    width: 16%;
+    height: 2.6rem;
+    border-radius: .4rem;
+    font-weight: bold;
+    background-color: rgb(45,86,225);
+}
+.waoverview-sec-col1-row3-button:hover{opacity: .8;}
+.waoverview-sec-col1-row3-button1:hover{opacity: .8;}
+.waoverview-sec-col1-row3-button1{
+    width: 16%;
+    height: 2.6rem;
+    border-radius: .4rem;
+    font-weight: bold;
+    background-color: rgb(224, 224, 224);
+}
+.waoverview-sec-col1-row3-col p{
+    color: rgb(112, 122, 138);
+}
+.waoverview-sec-col1-row3-weight{
+    font-size: 14px;
+    font-weight: bold;
+}
+.waoverview-sec-col1-row4{
+    width: 89%;
+    margin-top: 5rem;
+}
+.waoverview-sec-col1-row4-col1{
+    display: flex;
+    justify-content: space-between;
+}
+.waoverview-sec-col1-row4-col1 p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.waoverview-sec-col1-row4-col2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.waoverview-sec-col1-row4-col2 p{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(70, 69, 69);
+}
+.waoverview-sec-col1-row4-col2 div{
+    display: flex;
+    align-items: center;
+}
+.waoverview-sec-col1-row4-col2-flex{
+    display: flex;
+    gap: 1rem;
+}
+.waoverview-sec-col1-row4-col2-flex img{
+    width: .5rem;
+}
+.waoverview-sec-col1-row5{
+    margin-top: 5rem;
+    width: 89%;
+}
+.css-1rurn1s{
+    box-sizing: border-box;
+    margin: 0px 8px 0px 16px;
+    min-width: 0px;
+    color: rgb(45,86,225);
+    font-size: 24px;
+    fill: rgb(45,86,225);
+    width: 2.3rem;
+    height: 2.3rem;
+    flex-shrink: 0;
+}
+.waoverview-sec-col1-row5-col{
+    margin-top: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+.waoverview-hr{
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+.waoverview-sec-col1-row5-col p{
+   opacity: .8;
+}
+.waoverview-sec-col1-row5-col button{
+    padding: .5rem 1.4rem;
+    margin-top: .5rem;
+    border-radius: .4rem;
+}
+
+@media screen and (max-width: 1020px){
+    .waoverview{
+        display: flex;
+    }
+    .waoverview-sec-full{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .waoverviewsec-col1{
+        width: 100%;
+    }
+    .waoverview-sec-col2{
+        width: 98%;
+    }
+    .waoverview-sec-col2{
+        margin-top: -.4rem;
+        margin-bottom: 5rem;
+    }
+    .waoverview-sec{
+        width: 98%;
+    }
+    .waoverview-sec-col1-row2,
+    .waoverview-sec-col1-row3,
+    .waoverview-sec-col1-row4,
+    .waoverview-sec-col1-row5
+    {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 790px){
+    .waoverview-sec{
+        margin-top: 2rem;
+    }
+    .waoverview-first{
+        /* width: 100vw; */
+        /* border-right: 1px solid black; */
+        display: flex;
+        /* align-items: ; */
+        flex-direction: row;
+        background-color: black;
+        position: fixed;
+        position: absolute;
+        top: 0%;
+        right: 0;
+        left: 0;
+        overflow-y: auto; 
+        width: 100%;
+        height: 4rem;
+        /* border: 1px solid red; */
+    }
+    .waoverview-first .fun-first{
+        font-weight: bold;
+        /* background-color: white; */
+        height: 3.8rem;
+        /* border-color: white; */
+    }
+    /* .active .fun-sec{
+        border-color: rgb(45,86,225);
+        background-color: rgb(233, 232, 232);
+    } */
+    .account-width{
+        width: 6.8rem;
+    }
+    .trans-width{
+        width: 6.2rem;
+    }
+    .fiat-width{
+        width: 5.2rem;
+    }
+    .waoverview-first div{
+        display: flex;
+        width: auto;
+        height: 3rem;
+        align-items: center;
+        color: white;
+        padding-bottom: .3rem;
+    }
+    .waoverview-first .fun-first p{
+        font-weight: bold;
+        background-color: inherit;
+        border-left: none;
+        border-bottom: 5px solid black;
+        padding-bottom: .2rem;
+        width: max-content;
+    }
+    .waoverview-first .fun-sec p{
+        width: max-content;
+    }
+
+    .waoverview-first .fun-first{
+        font-weight: normal;
+        background-color: inherit;
+        border-left: none; 
+        width: max-content
+    }
+    .waoverview-first .fun-sec{
+        /* border-left: 5px solid black; */
+    }
+    .waoverview-sec{
+        width: fit-content;
+        padding: 1.6rem 1rem;
+        color: black;
+    }
+    .waoverview-sec-col1-row3{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .waoverviewsec-col1{
+        width: 100%;
+    }
+    .waoverview-sec-col1-row3-button1,
+    .waoverview-sec-col1-row3-button{
+        width: 98%;
+        margin: auto;
+    }
+    .waoverview-sec{
+        width: 80%;
+        padding: 1.6rem 1rem;
+    }
+    .waoverview-sec h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .waoverview-sec-col1-row4-col1{
+        flex-direction: column;
+        gap: .5rem;
+    }
+   .waoverview-sec{
+        margin-top: 2rem;
+        width: 100vw;
+        width: 100%;
+    }
+   .waoverview-first{
+        position: absolute;
+        top: 0%;
+        right: 0;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .waoverview-sec{
+        margin-top: 2rem;
+        width: 100vw;
+        width: 100%;
+    }
+    .waoverview-first{
+        position: absolute;
+        top: 0%;
+        right: 0;
+        left: 0;
+    }
+ }
+
+
+
+@media screen and (max-width: 350px){
+    .waoverview-first{
+     width: max-content;
+     position: absolute;
+     top: 0%;
+     right: 0;
+     left: 0;
+     width: 100vw;
+   }
+}
+

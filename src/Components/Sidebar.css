@@ -1,0 +1,67 @@
+.dashside-col1{
+    background-color: #161616;
+    width: 17rem;
+    padding: 2.6rem 1rem 8rem 1rem;
+    height: fit-content;
+    overflow: hidden;
+}
+.dashside-col1 .dashp{
+    height: 2.4rem;
+    width: 14rem;
+    margin-top: .6rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem ;
+    border-radius: .6rem;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: none;
+}
+.active .dashp{
+    background-color: black;
+    color: red;
+}
+
+@media screen and (max-width: 1020px){
+    /* .dash-sidebar{
+        position: relative;
+    } */
+    .dashside-col1{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        background-color: black;
+        height: 4rem;
+        padding: .2rem .8rem;
+        width: 100%;
+        /* overflow-y: scroll; */
+        overflow-x: scroll;
+        position: absolute;
+        top: 3.2rem;
+        left: 0;
+        right: 0;
+        /* border: 1px solid red; */
+    }
+    #dashp-api{
+        width: 10rem;
+    }
+    #dashp-reawrd{
+        width: 9rem;
+    }
+    #dashp-task{
+        width: 8rem;
+    }
+    .dashside-col1 .dashp{
+        width: 7rem;
+        height: 2.7rem;
+        font-size: 16px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .active .dashp{
+        background-color: #161616;
+        color: red;
+    }
+}

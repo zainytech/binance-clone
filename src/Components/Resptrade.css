@@ -1,0 +1,228 @@
+.rest{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.rest-row1{
+    background-image: url('./Img/bgtab.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3rem 5rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center; 
+}
+.rest34-color{
+    background-color: #181A20; 
+}
+.rest-row1-div1{
+    width: 66%;
+}
+.rest-row1-div1-data{
+    color: #B7BDC6;
+    font-size: 15px;
+    line-height: 1.4em;
+    font-weight: 600;
+    width: 92%;
+    margin-top: .6rem;
+}
+.rest-row2{
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.rest-row2-col1{
+    color: #B7BDC6;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+.rest-row2-col2{
+    display: flex;
+    gap: 2.2rem;
+}
+.rest-row2-col2-div1{
+    width: 32%;
+}
+.rest-row2-col2-div1 h5{
+    margin: 1rem 0;
+}
+.rest-row2-col2-div1 div{
+    text-align: justify;
+    color: #B7BDC6;
+    font-size: 14.6px;
+}
+.rest-row3{
+    padding: 5rem 5rem;
+    display: flex;
+    gap: 4rem;
+}
+.rest-row3-col1{
+    width: 47%;
+    justify-content: center;
+}
+.rest-row3-col2{
+    width: 49%;
+}
+.rest-row3-col2 img{
+    width: 98%;
+}
+.rest-row3-col1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.rest-row3-col1-div{
+    font-size: 14.6px;
+    color: #B7BDC6;
+    text-align: justify;
+}
+.rest-row3-col1-div1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .4rem;
+    color: #B7BDC6;
+}
+.rest-row3-col1-div1 button{
+    display: flex;
+    gap: .4rem;
+    background-color: #636364;
+    /* width: 6rem; */
+    font-weight: 600;
+    padding: .2rem .6rem;
+    border-radius: .8rem;
+}
+.css-94sbqg{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.rest-row4{
+    display: flex;
+    padding: .1rem 5rem;
+    gap: 4rem;
+    margin-top: -1.6rem;
+}
+
+.rest-row3-col1-div2{
+    color: #B7BDC6;
+    font-weight: 600;
+    font-size: 18px;
+}
+.rest-row5{
+    padding: 4rem 10rem;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.rest-row5-col3{ 
+   margin-top: .6rem;
+   color: #B7BDC6;
+   font-size: 16px;
+   margin-left: 1rem;
+   line-height: 1.4em;
+}
+
+.rest-row6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 64%;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.rest-row6 button{
+    padding: .6rem 3rem;
+    border-radius: .4rem;
+    color: black;
+    background-color: #2D56E1;
+    font-weight: 600;
+}
+.rest-row6-btn{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+}
+.rest-row6-btn button{
+    padding: .6rem 1.4rem;
+    border-radius: .4rem;
+    color: black;
+    background-color: #2D56E1;
+    font-weight: 600;
+}
+.rest-row7{
+    background-color: #181A20;
+}
+
+
+@media screen and (max-width: 880px){
+    .rest-row1{
+        padding: 3rem 1rem;
+        gap: 1rem;
+    }
+    .rest-row1-div1{
+        width: 98%;
+        text-align: center;
+    }
+    .rest-row1-div2{
+        display: none;
+    }
+    .rest-row2{
+        padding: 3rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .rest-row2-col2{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .rest-row2-col2-div1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 98%;
+    }
+    .rest-row3{
+        padding: 4rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .rest-row3-col1{
+        width: 99%;
+        justify-content: center;
+    }
+    .rest-row3-col2{
+        width: 98%;
+    }
+    .rest-row4{
+        display: flex;
+        flex-direction: column;
+        padding: .1rem 1rem;
+        gap: 4rem;
+    }
+    .rest-row5{
+        padding: 3rem 1rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .rest-row6 h2{
+        line-height: 1.3em;
+    }
+    .rest-row6{
+        gap: 1rem;
+        width: 98%;
+        margin: 1rem auto;
+        padding: 3rem 0;
+    }
+
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dashboard1{
+    overflow: hidden;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.dash3m2col1-margin{
+    margin: 2rem 0;
+    font-weight: normal;
+}
+.dash3m2row3col1{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    /* width: max-content; */
+}
+.dash3m2row3col1 div:nth-child(2){
+    width: max-content;
+}
+.market2col1-margin{
+    margin: 2rem 0;
+    font-weight: bold;
+}
+.mark .market2green{
+    margin: 2rem 0;
+    color: green;
+    font-weight: bold;
+}
+.mark .market2gf{
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+    margin: 1.4rem 0;
+}
+.market3-hidden{
+    visibility: hidden;
+}
+.market2col1-blue{
+    color: #2D56E1;
+    font-weight: bold;
+    margin-left: 7rem;
+}
+.market2co1-blue{
+    color: #2D56E1;
+    font-weight: bold;
+}
+.dashoard32row22-col14{
+    background-color: #161616;
+    display: flex;
+    align-items: baseline;
+    gap: 2.6rem;
+    width: 22rem;
+    border-radius: .6rem;
+    padding: .4rem 0;
+}
+.dashoard32row22-col14 div{
+    padding: .4rem 1rem;
+    cursor: pointer;
+    width: max-content;
+} 
+.dashoard32row22-col14 .dashoard32row22-col14active{
+    background-color: #2D56E1;
+    border-radius: .4rem;
+}
+.dashoard1col1-hide{
+    display: none;
+ }
+
+@media screen and (max-width: 920px){
+    .dashboard1{
+        padding: 0;
+        margin: 0;
+    }
+    .dashoard1col1-hide{
+        margin: 0;
+    }
+    .dashoard2row1-col1-img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .dashoard32row22-col14{
+        gap: .6rem;
+        width: 20rem;
+        padding: .4rem .4rem;
+    }
+    .dashoard32row22-col14 div{
+        padding: .4rem 1rem;
+    } 
+    .dash3m2row3col1{
+        overflow: auto;
+    }
+    .dash3m2row3col1{
+        display: flex;
+        gap: 4rem;
+        margin: 2rem 0;
+    }
+    .market2col1-margin{
+        margin: 2rem 0;
+        font-weight: bold;
+    }
+    .dashoard32row22-col14-scroll{
+        overflow: scroll;
+    }
+}

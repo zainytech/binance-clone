@@ -1,0 +1,298 @@
+.standardref{
+    position: relative;
+
+}
+.stand{
+    background-color: gray;
+    margin: 0;
+    text-decoration: none;
+    position: relative;
+    padding: 2rem 5rem 2rem 5rem;
+    color: black;
+    background-image: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, #2D56E1 98.1%)
+}
+.stand-first{
+    display: flex;
+    justify-content: space-between;
+}
+.stand-first div{
+    display: flex;
+    gap: 1.6rem;
+}
+.stand-first div a{
+    text-decoration: none;
+    color: white;
+    background-color: inherit;
+}
+
+.stand-first div a:hover{
+    color: blue;
+}
+.stand-first div h6{
+    font-size: 1.3rem;
+    cursor: pointer;
+    
+}
+
+.stand-first button{
+    padding: .5rem .6rem;
+    background-color:#009FFD;
+    border-radius: .3rem;
+    font-weight: bold;
+    font-size: medium;
+}
+.stand-sec{
+    display: flex;
+    margin: 2rem 0;
+    gap: 5rem;
+}
+
+.stand-head {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+}
+
+.stand-head h3{
+    font-size: 3rem;
+    line-height: 1em;
+    margin-top: .5rem;
+    margin-bottom: .6rem;
+}
+.stand-head a{
+    text-decoration: none;
+    background-color: inherit;
+    color: blue;
+}
+.stand-head p{
+    margin-top: .5rem;
+    font-size: 1.2rem;
+}
+
+.stand-btn{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    padding: 24px 24px 32px;
+    max-width: auto;
+}
+
+.btn-col1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-col1 :last-child{
+    text-decoration: none;
+    background-color: inherit;
+    color: blue;
+    margin-top: 0rem;
+}
+.btn-col1 :last-child :hover{
+    color: black;
+}
+.css-f1b9tf{
+  width: 1.9rem;
+}
+.stand-invite{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stand-invite div{
+    background-color: rgb(214, 213, 213);
+    padding: .6rem .8rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.btn-col2{
+    display: flex;
+    background-color: rgb(177, 208, 211);
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+}
+.btn-col2 div{
+    width: 54%;
+}
+.stand-btn2{
+    display: flex;
+    justify-content: space-between;
+    padding: .6rem 1rem;
+    cursor: text;
+    border-radius: .5rem;
+    outline: none;
+}
+
+.stand-btn1{
+    width: 88%;
+    padding: 1rem;
+    background-color: #2D56E1;
+    border-radius: .6rem;
+    font-weight: bold;
+    font-size: medium;
+}
+.stand-dashboard{
+    width: 100%;
+    height: 5rem;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+.standindex{
+    z-index: 1;
+}
+
+.stand-dashb{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.stand-dashb h6{
+    background-color: #2D56E1;
+    padding: .7rem 1.2rem;
+    border-radius: 1.5rem;
+}
+.dashcol1{
+    display: flex;
+    gap: .5rem;
+    margin-top: 3rem;
+}
+.dashcol2{
+    display: flex;
+    gap: 3rem;
+}
+.selection--style{
+    padding: 0.5rem;
+    outline: none;
+    padding: .4rem 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.dashcol3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3.5rem;
+    padding: 2rem .8rem;
+    line-height: 1.8em;
+    border-radius: .3rem;
+    background-color: rgb(245, 243, 243);
+}
+
+.dashcol-ear{
+    display: flex;
+    gap: .3rem;
+}
+.css-jvw6n9{
+    width: 1rem;
+}
+.grdata{
+    color: rgb(112, 122, 138);
+    line-height: 1.3em;
+    padding: 0 .5rem;
+}
+
+.css-ivry7e{
+    width: 1rem;
+}
+.css-3tndv1{
+    width: 2rem;
+}
+.css-1iztezc{
+    width: 1rem;
+    height: 1.5rem;
+}
+.stand-bonus{
+    display: flex;
+    gap: 2.5rem;
+}
+.ref-rew button{
+    padding: .3rem .9rem;
+}
+.stand-bonus :first-child{
+    padding: .6rem 1rem;
+    background-color: rgb(235, 235, 235);
+    border-radius: .5rem;
+}
+.stand-export{
+    display: flex;
+    justify-content: space-between;
+}
+.stand-export button{
+    display: flex;
+    gap: .2rem;
+    background-color: white;
+    color: rgb(11, 132, 145);
+    font-weight: bold;
+}
+.stand-comm{
+    display: flex;
+    gap: .5rem;
+    margin-top: .6rem;
+}
+
+.stand-last{
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.active h6{
+    border-bottom: 2px solid blue;
+    height: 2.5rem;  
+    text-align: center;
+}
+
+.stand-last button{
+    padding: 1.2rem 7rem;
+    background-color: #2D56E1;
+    border-radius: .6rem;
+    font-weight: bold;
+    font-size: medium;
+}
+
+@media screen and (max-width: 1020px){
+    .stand-head h3{
+        font-size: 2rem;
+        gap: 1rem;
+    }
+    .stand{
+        padding: 4rem 2rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .stand-head{
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .stand-sec{
+        flex-direction: column;
+    }
+    .stand{
+        padding: 4rem .7rem;
+    }
+    .stand-btn{
+        padding: 1rem 1.3rem;
+    }    
+    .standhide{
+        display: none;
+    }
+
+  
+}
+
+
+

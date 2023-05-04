@@ -1,0 +1,83 @@
+/* .side-header{
+    position: absolute;
+    top: 3.78rem; 
+    right: 0;
+    height: 100vh;
+    width: 17rem;
+    border-left: 1px solid rgb(206, 206, 206); 
+}
+
+.side-header .icons div{
+    height: 3.2rem;
+    padding: 1rem 1.3rem;
+    cursor: pointer; 
+}
+
+.side-header .icons div i{
+    margin-left: .5rem;
+    font-size: 1.2rem;
+    color: #455A64 ;
+}
+
+.active div{
+    border-left: 5px solid #2D56E1;
+    height: 2.5rem;
+    background-color: #ECEFF1;
+}
+
+.side-header a{
+    text-decoration: none;
+}
+
+.side-header .icons span{
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-left: .7rem;
+    font-size: 1rem;
+    color: black;
+}
+
+@media screen and (max-width: 1020px){
+    .side-header{
+        background-color: black;
+        height: 3rem;
+        width: 100%;
+        left: 0;
+        overflow-x: scroll; 
+        overflow-y: hidden;
+    }
+
+    .side-header::-webkit-scrollbar {
+        display: none;
+    }
+
+    .side-header .icons{
+        display: flex;
+    }
+
+    .side-header .icons div{
+        display: flex;
+        padding: .6rem 1.2rem;
+    }
+
+    .side-header .icons #reward{
+        width: 6.5rem;
+    }
+
+    .side-header .icons #width{
+        width: 5.2rem;
+    }
+
+    .side-header .icons #api{
+        width: 7.7rem;
+    }
+
+    .side-header .icons span{
+        color:rgb(112, 122, 138);  
+    }
+
+    .parent2{
+        position: absolute;
+        top: 6.5rem;
+    }
+} */

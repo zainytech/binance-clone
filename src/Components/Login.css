@@ -1,0 +1,94 @@
+.login{
+    background-color: #1E1E1E;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    gap: 10rem;
+}
+.logincol1{
+    background-color: #161616;
+    min-width: 22rem;
+    max-width: 86%;
+    margin: 7rem 0 7rem 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    z-index: 1000;
+}
+.logincol1 span{
+    color: #2D56E1;
+    margin-left: .3rem;
+}
+.logincol1 button{
+    background-color: #2D56E1;
+    color: white;
+    width: 98%;
+    padding: .7rem;
+    margin: 1rem 0;
+    border-radius: .6rem;
+}
+.logincol1 p{
+    opacity: .8;
+}
+.login1btn{
+    display: flex;
+    gap: .6rem;
+}
+.login1btn button{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.login1p{
+    text-align: center;
+    opacity: none;
+}
+.login1btn button:last-child{
+    background-color: black;
+    color: white;
+}
+.logincol1 a{
+    font-weight: bold;
+    opacity: none;
+    font-size: 16px;
+} 
+.logincol2{
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logincol2 img{
+    width: 96%;
+    filter: drop-shadow(3px 8px 15px #2D56E1);
+}
+
+@media screen and (max-width: 920px){
+    .login{
+        overflow: hidden;
+        display: flex;
+        gap: 5rem;
+    }
+    .logincol2{
+        width: 96%;
+    }    
+}
+@media screen and (max-width: 680px){
+    .login{
+        flex-direction: column;
+        gap: 0;
+        padding-bottom: 2rem;
+    }   
+    .logincol2{
+         order: 1;
+         margin-top: 1rem;
+    }
+    .logincol1{
+        margin: auto;
+        padding: 2rem 1rem;
+        order: 2;
+    }
+}

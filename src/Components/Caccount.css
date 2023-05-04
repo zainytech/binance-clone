@@ -1,0 +1,317 @@
+.caccount{
+    background-color:  #1E1E1E;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem 3rem 2rem;
+    height: 100vh;    
+}
+.caccount .logincol1{
+    width: 25rem;
+    max-width: 86%;
+    padding: 1.4rem;
+    z-index: 1000;
+}
+.caccountvbtn{
+    width: 96%;
+}
+.caccount .login1btn{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+.caccount .login1btn button{
+    display: flex;
+    justify-content: left;
+    background-color: inherit;
+    color: white;
+    text-align: left;
+    padding: .5rem 0;
+    margin:0;
+}
+.caccount .logincol2{
+    margin-top: 4rem;
+    width: 42%;
+    z-index: 1000;
+}
+.caccount1row1{
+    position: absolute;
+    width: 315px;
+    height: 315px;
+    left: -30px;
+    top: 171px;
+    filter: blur(10px);
+}
+.caccount1row2{
+    position: absolute;
+    right: -0px;
+    top: 80px;
+    filter: blur(12px);
+    z-index: 0;
+}
+.caccount1row2 img{
+    width: 470px;
+    height: 510px;
+}
+.logincol3{
+    max-width: 25rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 3% auto;
+    padding: 1.8rem 1.4rem;
+    background-color: #161616;
+    z-index: 10000;
+    border-radius: 1rem;
+}
+.logincol3 .rfpopupcol1 h6{
+    font-size: 13px;
+}
+.logincol3 p{
+    width: 88%;
+    text-align: justify;
+    margin: .4rem 0;
+}
+.login3row1{
+    line-height: .8;
+    margin: 2rem 0;
+}
+.login3p1{
+    font-weight: bold;
+    font-size: 14px;
+}
+.login3col1{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.login3col1 p{
+    opacity: .8;
+}
+.login3col1 img{
+    width: 1rem;
+    height: .9rem;
+}
+.login3-btn{
+    background-color: #2D56E1;
+    width: 100%;
+    padding: .7rem 0;
+    font-weight: bold;
+    border-radius: .7rem;
+}
+.login3p3{
+    opacity: .8;
+}
+.login3col33{
+    line-height: .6;
+    margin: 1.4rem 0;
+}
+.login3col33 p{
+    opacity: .8;
+}
+.login3col33 input{
+    width: 100%;
+    height: 2.4rem;
+    border-radius: .5rem;
+    background-color: inherit;
+    color: white;
+    border: 1px solid gray;
+    outline: none;
+    padding: 0 .5rem;
+}
+.login3col33sub{
+    display: flex;
+    gap: 1rem;
+    margin: -1.5rem 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.login3p3h3{
+    font-weight: bold;
+    font-size: 14px;
+    margin: 1rem 0;
+}
+.login3p32{
+    line-height: 1.1;
+    opacity: .8;
+}
+.login3radio3{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin: 1.4rem 0;
+}
+.login3radio3 button{
+    background-color: inherit;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    align-items: center;
+    border-radius: .4rem;
+    outline: #2D56E1;
+    border: 1px solid gray;
+}
+input[type='radio'].larger{
+    width: 1rem;
+    height: 1rem;
+}
+.login3pics3{
+    display: flex;
+    gap: .8rem;
+    margin: 1rem 0;
+}
+.login3pics3 div{
+    line-height: .4;
+}
+.login3pics3 div p{
+    opacity: .8;
+}
+.login3pics3 div button{
+    max-width: 13rem;
+    padding: 2rem;
+    height: 6rem;
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+    border: 2px dotted blue;
+}
+.login3point3{
+    font-size: 15px;
+    font-weight: bold;
+}
+.login3ul3{
+    line-height: 1;
+    margin-left: 2.6rem;
+    opacity: .8;
+    margin-bottom: 1.4rem;
+}
+.login3idcard3{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    padding-top: 3remxx;
+}
+.login3upic1{
+    width: 96%;
+    height: 13rem;
+    margin: 2rem 0;
+}
+.login3upic2{
+    display: flex;
+    margin: 2rem auto;
+}
+.login3rights3{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+.login3rights3 div{
+    line-height: .4;
+   
+}
+.login3rights3 div p{
+    opacity: .8;
+}
+.login3rights3 div button{
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: inherit;
+    border: 2px dotted blue;
+    border-radius: 1rem;
+    background-color: #111111;
+}
+.login3rights3 div button p{
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+}
+.login3right-upic2{
+    width: 18%;
+    margin-left: 2.4rem;
+} 
+.login3upic3{
+    width: 98%;
+    margin: 1rem 0;
+}  
+.blurbackground{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(30,30,30, 0.7);
+    z-index: 1000;
+}
+.search-flags{
+    color: black;
+    background-color: inherit;
+    border: 1px solid gray;
+    border-radius: .6rem;
+    outline:none;
+    height: 2.7rem;
+    margin-top: 2rem;
+}
+.search-flags *{
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+   
+}
+
+/* .react-tel-input {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    position: relative;
+    width: 100%;
+  }
+  .react-tel-input :disabled {
+    cursor: not-allowed;
+  }
+  .flag {
+    width: 25px;
+    height: 20px;
+    background-image: url("https://raw.githubusercontent.com/bl00mber/react-phone-input-2/master/src/style/common/high-res.png");
+    background-repeat: no-repeat;
+  } */
+
+@media screen and (max-width: 920px){
+    .caccount{
+        overflow: hidden;
+        padding: 0  1rem;
+    }
+    .caccount .logincol2{
+        margin-top: 2.8rem;
+        width: 56%;
+    }
+}
+@media screen and (max-width: 680px){
+    .caccount{
+        flex-direction: column;
+        padding: 2rem .5rem;
+        gap: 1.6rem;      
+    }
+    .caccount .logincol2{
+        margin: auto;
+        width: 78%;
+    }
+    .caccount .logincol1{
+        max-width: 86%;
+        margin: auto;
+        padding: 1.4rem .8rem;
+    }
+    .login3pics3 div button{
+        padding: .8rem;
+    }
+    
+}

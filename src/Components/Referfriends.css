@@ -1,0 +1,309 @@
+.rfriends{
+    color: white;
+    overflow: hidden;
+    background-color: black;
+}
+.rfiendscol1{
+    width: 100%;
+    margin: auto;
+    height: 21rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b0b0b;
+}
+.rfiends1row1{
+    position: absolute;
+    top: 45px;
+}
+.rfiends1row1 img{
+   width: 32rem;
+   height: 20rem;
+   text-align: center;
+   filter: blur(6px);
+}
+.rfiends1row2{
+    position: absolute;
+    top: 125px;
+    text-align: center;
+}
+.rfiends1row2 h2{
+    width: 86%;
+    margin: auto;
+}
+.rfiends1row2 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem;
+    margin: 1.2rem 0;
+}
+.rfiends1row2 div button{
+    background-color: #2D56E1;
+    color: white;
+    padding: .4rem 1.2rem;
+    border-radius: .5rem;
+}
+.rfiends1row2 div button:hover{
+    opacity: .8;
+}
+.rfiends1row2 div button:nth-last-child(2){
+    background-color: #161616;
+    color: #2D56E1;
+    border: 1px solid #2D56E1;
+}
+.rfiends1row2 p{
+    opacity: .8;
+    margin-top: 1rem;
+}
+.rfiendscol2{
+    align-items: center;
+    background-color: black;
+}
+.col2img{
+    width: 96%;
+    margin: 2rem 0;
+    max-height: 644px;
+}
+.rfriends2row1{
+    display: flex;
+    margin-top: -6rem;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.rfriends2row1 div{
+    background-color: rgb(29, 29, 29);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+.rfriends2row1 img{
+    position: absolute;
+    top: -50px;
+    width: 5.5rem;
+    height: 5.5rem;
+    filter: drop-shadow(2px 10px 20px #2D56E1);
+}
+
+.rfriends2row1 div p{
+    margin-top: 2rem;
+    color: #2D56E1;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1.4rem 1.9rem;
+} 
+.friendshr{
+    margin: 4rem 0 0 2rem;
+    border: 2px solid rgb(42, 42, 42);
+}
+.rfiendscol3{
+    width: 64%;
+    margin: auto;
+}
+.rfriends3row1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    gap: 1.5rem;
+    margin: 5rem 0;
+    position: relative;
+}
+.rfriends3row1 div{
+    background-color: rgb(29, 29, 29);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    height: 5rem;
+}
+.rfriends3row1 img{
+    position: absolute;
+    top: -50px;
+    width: 5.5rem;
+    height: 5.5rem;
+    filter: drop-shadow(2px 10px 20px #2D56E1);
+}
+.rfriends3row1 div p{
+    margin-top: 1.4rem;
+    font-size: 16px;
+    font-weight: bold;
+} 
+.rfiendscol4{
+    width: 92%;
+    margin: auto;
+}
+.rfcol4img{
+    margin: 7rem 0;
+    width: 98%;
+}
+.rfiendscol5{
+    display: flex;
+    gap: 1.4rem;
+    width: 96%;
+    margin: auto;
+}
+.rfriends5row1{
+    background-color: #161616;
+    padding: 2.4rem 2rem;
+    line-height: 1.5;
+    border-radius: 1rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+.rfriends5row1 button{
+    display: flex;
+    gap: .5rem;
+    background-color: inherit;
+    color: blue;
+    font-size: 1.1rem;
+    font-weight: bold;
+    place-items: center;
+
+}
+.rfriends5row1 button img{
+    width: .6rem;
+    height: .7rem;
+}
+.rfriends5row2{
+    background-color: #161616;
+    padding: 1.4rem;
+    line-height: 1.4;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.rfriends5row2 div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    margin-top: .8rem;
+    background-color: black;
+}
+.rfriendspopup{
+    width: 24rem;
+    max-width: 92%;
+    padding: 2rem 1.5rem;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: .8rem;
+    border-radius: .8rem;
+    position: absolute;
+    top: 12%;
+    left: 35%;
+    margin: auto;
+}
+.rfpopupcol1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.rfpopupcol1 button{
+    background-color: inherit;
+}
+.rfpopupcol1 .fa-solid{
+    color: white;
+    font-size: 1.5rem;
+}
+.rfpopupcol1 .fa-solid:hover{
+    color: red;
+}
+.rfpopupimg{
+    height: 18rem;
+}
+.rfpopupbtn{
+    background-color: inherit;
+    color: white;
+    border: 1px solid gray;
+    border-radius: .8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: .5rem .4rem;
+    width: 98%;
+}
+.rfpopupbtn div{
+   display: flex;
+   gap: .3rem;
+}
+.rfpopupbtn div img{
+    width: .5rem;
+    height: .9rem;
+    margin-top: .2rem;
+}
+.rfpopupcol2{
+    display: flex;
+    gap: .2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 920px){
+    .rfriends{
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .rfriends{
+        overflow: hidden;
+    }
+    .rfiends1row1 img{
+        width: 22rem;
+    }
+     .rfriends2row1{
+        width: 70%;
+        margin: auto; 
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .rfiendscol3{
+        width: 84%;
+        margin: auto;
+        text-align: center;
+    }
+    .friendshr{
+        margin-bottom: 5rem;
+    }
+    .rfriends3row1{
+        grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+        gap: 3rem;
+        width: 80%;
+        margin: auto;
+    }
+    .rfcol4img{
+        margin-top: 1rem;
+    }
+    .rfiendscol5{
+        width: 96%;
+        flex-direction: column;
+    }
+    .col2img{
+        width: 120%;
+
+    }
+    .rfpopupbtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rfriendspopup{
+        position: absolute;
+        top: 12%;
+        left: 1%;
+    }
+}

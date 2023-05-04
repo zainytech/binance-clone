@@ -1,0 +1,148 @@
+.login2{
+        background-color: #1E1E1E;
+        overflow: hidden;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 5rem;
+}
+.login2col1{
+    z-index: 1000;
+    width: 25rem;
+    max-width: 86%;
+    padding: 1.6rem;
+    background-color: #161616;
+    border-radius: 1rem;
+}
+.login2col1 p{
+    opacity: .8;
+}
+.login2row1{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: .3rem .8rem;
+    width: fit-content;
+    margin: 1.4rem 0;
+    border-radius: .6rem;
+}
+.login2row1btn{
+    padding: .4rem 1rem;
+    background-color: black;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+
+.login2row1 .login2row1active{
+    background-color: #2D56E1;
+    color: white;
+    border-radius: .5rem;
+    padding: .4rem 1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+.login2forgot{
+    color: #2D56E1;
+    font-weight: bold;
+    margin-top: -.2rem;
+}
+#vehicle1{
+    background-color: inherit;
+    border: 1px solid white;
+    margin: 1rem 0;
+    margin-right: .3rem;
+}
+.login2up{
+    margin: 1rem 0;
+}
+.login2up span{
+    color: #2D56E1;
+    font-weight: bold;
+    margin-left: .2rem;
+}
+.login2p{
+    opacity: none;
+    color: white;
+    margin-bottom: .5rem;
+}
+.login2btn{
+    display: flex;
+    gap: .6rem;
+    margin-top: .7rem;
+}
+.login2btn button{
+    display: flex;
+    gap: .4rem;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    color: black;
+    width: 11.5rem;
+    height: 2.3rem;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+.login2btn button:last-child{
+    background-color: #2D56E1;
+    color: white;
+}
+
+.login2col2{
+    z-index: 1000;
+    width: 19rem;
+    max-width: 86%;
+    padding: 1.2rem;
+    background-color: #161616;
+    border-radius: 1rem;
+    margin-top: 8rem;
+    height: fit-content;
+}
+.login2col2 img{
+    width: 98%;
+    margin: auto;
+}
+.login2col2 p{
+    margin-top: .5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.verify1row1{
+    width: 100%;
+    display: flex;
+    gap: .6rem;
+    border: 1px solid white;
+    border-radius: .6rem;
+}
+.verify1row1 input{
+    width: 82%;
+    border: none;
+    outline: none;
+}
+@media screen and (max-width: 890px){
+    .login2{
+        overflow: hidden;
+        padding: 3rem 1rem;
+    } 
+}
+@media screen and (max-width: 690px){
+    .login2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
+}
+    .login2col1{
+        margin: auto;
+        max-width: 86%;
+        padding: 1.6rem 1rem;
+    }
+    .login2col2{
+        margin-top: 2rem;
+    }
+}
+
+

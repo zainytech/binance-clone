@@ -1,0 +1,87 @@
+
+/* faq g part styling//////// */
+.faq-main{
+    background-color: rgba(0,0,0);
+    padding:2rem;
+    /* border:green solid 1px; */
+}
+.faq-g-div{
+    display: flex;
+    position: relative;
+    gap:2rem;
+    /* top:45rem; */
+    width:100%;
+    /* border:red solid 1px; */
+
+}
+.faq-heading{
+color:white;
+font-size: 30px;
+font-weight: 600;
+display:block;
+}
+.faq-g-box1{
+    width:50%;
+    cursor: pointer;
+}
+.faq-g-box1a{
+    background-color: rgba(22, 22, 22, 1);
+height:auto;
+width:100%;
+margin-top:1rem;
+padding:2rem;
+border-radius: 1rem;
+}
+.faq-g-box1a-txt{
+    color: rgba(255, 255, 255, 1);
+font-size: 14px;
+}
+.faq-g-box1a img{
+    margin-right:1rem;
+}
+
+/* onclick////// */
+.faq-g-box1-onclick-main{
+    margin-top: 1rem;
+}
+.faq-g-box1-onclick-main-txt{
+    font-size:12px;
+    font-weight: 500;
+    color:white;
+}
+
+
+@media screen and (max-width: 1280px) {
+        .faq-g-div{
+            /* top:80rem; */
+
+        }
+}
+
+@media screen and (max-width: 1020px) {
+        .faq-g-div{
+            /* top:70rem; */
+            display:block;
+
+        }
+        .faq-g-box1{
+            width:100%;
+        }
+}
+
+@media screen and (max-width: 370px) {
+
+        .faq-g-div{
+            /* top:55rem; */
+        }
+        .faq-g-box1a-txt{
+        font-size: 10px;
+        }
+        .faq-g-box1-onclick-main-txt{
+            font-size:8px;
+        }
+        .faq-g-box1a{
+        padding:1rem;
+        border-radius: 0.5rem;
+        }
+}

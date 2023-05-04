@@ -1,0 +1,57 @@
+.over-first{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 8rem;
+    margin-bottom: .1rem;
+}
+.over-first div{
+    display: flex;
+    gap: 1.6rem;  
+}
+.over-first div a{
+    text-decoration: none;
+    color: black;
+    background-color: inherit;
+}
+
+.over-back .active h6{
+    border-bottom: 2px solid blue;
+    height: 2.5rem;  
+    text-align: center;
+}
+.over-back h3 i{
+   width: 1.2rem;
+}
+.fa-solid{
+    font-size: 1.1rem;
+    color: black;
+}
+.stand-lite{
+   justify-content: space-between;
+}
+
+@media screen and (max-width: 767px){
+    .over-first{
+        padding: 2.5rem 1.3rem;
+    }
+    .stand-dashboard{
+        height: 7rem;
+    }
+    .stand-dashb{
+        flex-wrap: wrap;
+        gap: .5rem;
+    }
+    .dashcol3{
+        grid-template-columns: auto;
+        gap: 3rem;
+    }
+    .dashcol2{
+       display: none;
+    }
+    .stand-bonus{
+        display: none;
+    }
+
+
+}

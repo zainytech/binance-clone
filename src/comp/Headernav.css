@@ -1,0 +1,535 @@
+.header{
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+.navheader{
+    background-color: black;
+    color: white;
+    height: 3.77rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    margin-left: 0rem;
+}
+.navbar a {
+    text-decoration: none;
+}
+.navheader-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.navheader-flex-img{
+    margin-left: 1rem;
+}
+.navbar div{
+    padding: .7rem 0rem;
+}
+.navbar .navbuy-crypto,
+.navbar .navbar-name {
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    font-size: 12.6px;
+    text-decoration: none;
+}
+.navbar .navbar-name a{
+    color: white;
+}
+.navbuy-crypto{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.navbuy-crypto .fa-solid{
+    margin-top: .1rem;
+    color: white;
+    font-size: .85rem;
+}
+.navbuy-crypto-downward{
+    width: 24rem;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: .4rem;
+    color: black;
+    position: absolute;
+    top: 2.6rem;
+    z-index: 10000;
+    left: -4rem;
+    /* box-shadow: rgb(0 0 0 / 8%) 0px 0px 20px; */
+}
+.navbuy-crypto-downward .navbuy-crypto-downward-row1{
+    width: 23rem;
+    /* border: 1px solid black; */
+    line-height: .0em;
+    padding: .1rem 1rem;
+    border-radius: .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin-bottom: .4rem;
+    cursor: pointer;
+}
+.navbuy-crypto-downward-div22{
+    font-size: .8rem;
+    color: gray;
+    font-weight: 600;
+    margin-top: -.4rem;
+}
+.navbuy-crypto-downward-row2{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+.navbuy-crypto-downward-row2 .fa-solid{
+    color: blue;
+    font-size: 1.3rem;
+}
+.navbuy-crypto-downward .navbuy-crypto-downward-row1:hover{
+    background-color: rgb(238, 238, 238);
+    display: show;
+}
+.navbuy-crypto-downward-row1:hover .fa-arrow-right{
+    visibility: visible;
+}
+.navbuy-crypto-downward-row1 .fa-arrow-right{
+    color: blue;
+    font-size: 1.3rem;
+    visibility: hidden;
+}
+
+.navbuy-crypto-downward1{
+    width: 45rem;
+    height: 19.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: .4rem;
+    color:  black;
+    position: absolute;
+    top: 2.6rem;
+    z-index: 10000;
+    flex-wrap: wrap;
+    left: -13rem;
+    /* box-shadow: rgb(0 0 0 / 8%) 0px 0px 20px; */
+}
+.navbuy-crypto-downward1 .navbuy-crypto-downward-row1{
+    width: 21.6rem;
+    /* border: 1px solid black; */
+    line-height: .0em;
+    padding: .1rem 1rem;
+    border-radius: .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin-bottom: .4rem;
+    cursor: pointer;
+}
+.navbuy-crypto-downward1 .navbuy-crypto-downward-row1:hover{
+    background-color: rgb(238, 238, 238);
+    display: show;
+}
+.navbuy-crypto-downward2{
+    width: 47rem;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: white;
+    padding-top: 1rem;
+    border-radius: .4rem;
+    color:  black;
+    position: absolute;
+    top: 2.6rem;
+    z-index: 10000;
+    flex-wrap: wrap;
+    left: -13rem;
+    /* box-shadow: rgb(0 0 0 / 8%) 0px 0px 20px; */
+}
+.navbuy-crypto-downward2 .navbuy-crypto-downward-row1{
+    width: 22.7rem;
+    /* border: 1px solid black; */
+    line-height: .0em;
+    padding: .1rem 1rem;
+    border-radius: .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin-top: .8rem;
+    margin-bottom: .1rem;
+    cursor: pointer;
+}
+.navbuy-crypto-downward2 .navbuy-crypto-downward-row1:hover{
+    background-color: rgb(238, 238, 238);
+    display: show;
+}
+.navbuy-crypto-downward2 .navbuy-crypto-downward-div22{
+    font-size: .8rem;
+    color: gray;
+    font-weight: 600;
+    margin-top: -.8rem;
+    line-height: 1.4em;
+    font-size: 12px;
+}
+.navbuy-crypto-downward22{
+    width: 42rem;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: white;
+    padding-top: 1rem;
+    border-radius: .4rem;
+    color:  black;
+    position: absolute;
+    top: 2.6rem;
+    z-index: 10000;
+    flex-wrap: wrap;
+    left: -13rem;
+    /* box-shadow: rgb(0 0 0 / 8%) 0px 0px 20px; */
+}
+.navbuy-crypto-downward22 .navbuy-crypto-downward-row1{
+    width: 20rem;
+    /* border: 1px solid black; */
+    line-height: .0em;
+    padding: .1rem 1rem;
+    border-radius: .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin-top: .8rem;
+    margin-bottom: .1rem;
+    cursor: pointer;
+}
+.navbuy-crypto-downward22 .navbuy-crypto-downward-row1:hover{
+    background-color: rgb(238, 238, 238);
+    display: show;
+}
+.navbuy-crypto-downward22 .navbuy-crypto-downward-div22{
+    font-size: .8rem;
+    color: gray;
+    font-weight: 600;
+    margin-top: -.8rem;
+    line-height: 1.4em;
+    font-size: 12px;
+}
+.navbuy-crypto-downward3{
+    width: 45rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: .4rem;
+    color:  black;
+    position: absolute;
+    top: 2.4rem;
+    z-index: 10000;
+    flex-wrap: wrap;
+    left: -13rem;
+    /* box-shadow: rgb(0 0 0 / 8%) 0px 0px 20px; */
+}
+.navbuy-crypto-downward3 .navbuy-crypto-downward-row1{
+    width: 21.9rem;
+    /* border: 1px solid black; */
+    line-height: .0em;
+    padding: .1rem 1rem;
+    border-radius: .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin-bottom: .4rem;
+    cursor: pointer;
+}
+.navbuy-crypto-downward3 .navbuy-crypto-downward-row1:hover{
+    background-color: rgb(238, 238, 238);
+    display: show;
+}
+
+.navbuy-crypto-downward4{
+    width: 23rem;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: .4rem;
+    color:  black;
+    position: absolute;
+    top: 2.6rem;
+    z-index: 10000;
+    flex-wrap: wrap;
+    left: -2rem;
+    box-shadow: rgb(0 0 0 / 8%) 0px 0px 20px;
+}
+.navbuy-crypto-downward4 .navbuy-crypto-downward-row1{
+    width: 22rem;
+    /* border: 1px solid black; */
+    line-height: .0em;
+    padding: .1rem 1rem;
+    border-radius: .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin-bottom: .4rem;
+    cursor: pointer;
+}
+.navbuy-crypto-downward4 .navbuy-crypto-downward-row1:hover{
+    background-color: rgb(238, 238, 238);
+    display: show;
+}
+.navbuy-crypto-downward5{
+    width: 14rem;
+    height: 34rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: .4rem;
+    color: black;
+    position: absolute;
+    top: 2.4rem;
+    z-index: 10000;
+    left: -1rem;
+    box-shadow: rgb(0 0 0 / 8%) 0px 0px 20px;
+}
+.navbuy-crypto-downward5 .navbuy-crypto-downward-row1{
+    width: 13.4rem;
+    /* border: 1px solid black; */
+    line-height: .0em;
+    padding: .1rem .4rem;
+    border-radius: .4rem;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    margin-bottom: .2rem;
+    height: 3.5rem;
+    cursor: pointer;
+}
+.navbuy-crypto-downward5 .navbuy-crypto-downward-row1:hover{
+    background-color: rgb(238, 238, 238);
+    display: show;
+}
+.navbuy-crypto-downward6{
+    padding-top: 1rem;
+    width: 15rem;
+    height: 36rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: .4rem;
+    color: black;
+    position: absolute;
+    top: 2.8rem;
+    z-index: 2;
+    left: -8rem;
+    box-shadow: rgb(0 0 0 / 8%) 0px 0px 20px;
+    z-index: 10000;
+}
+.navbuy-crypto-downward6 .navbuy-crypto-downward-row1{
+    margin: .2rem .3rem;
+    width: 14rem;
+    line-height: .0em;
+    padding: .1rem 1rem;
+    border-radius: .4rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: .2rem;
+    height: 3.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbuy-crypto-downward6 .navbuy-crypto-downward-row1:hover{
+    background-color: rgb(238, 238, 238);
+    display: show;
+    cursor: pointer;
+}
+.navbuy-crypto-downward6 .navbuy-crypto-downward-row2{
+    cursor: pointer;
+}
+.navbuy-crypto-downward-img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.renav-div-none{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    display: none;
+}
+.navbuy-crypto-downward-row1-hover:hover{
+  background-color: white;
+}
+.resnav{
+    background-color: white;
+    color: black;
+    /* height: 100%; */
+    width: 17rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000000;
+    /* padding: .1rem .6rem; */
+}
+.resnav .fas{
+    color: black;
+}
+.resnav-div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: .9rem .4rem;
+    font-weight: 600;
+    font-size: 16px;
+}
+.resnav-div1:hover{
+    background-color: rgb(238, 238, 238);
+}
+.resnav-div1 .fa-solid{
+    font-size: .9rem;
+}
+.resnav-div1-drop{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin: .8rem 0;
+    padding: 0rem 1.4rem;
+    font-weight: 600;
+    color: black;
+}
+.nav-row3{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 3rem;
+}
+.nav-row3-col1{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    position: relative;
+}
+.nav-row3-col2{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+.nav-row3 .nav-row3-img{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.nav-row3-img2{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.nav-row3-btn{
+    width: 4.8rem;
+    height: 2.3rem;
+    background-color: #2D56E1;
+    border-radius: .4rem;
+    /* color: black; */
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+
+.nav-row3-col1 .nav-row3-col1-padd{
+    padding: .8rem;
+}
+
+.navbuy-crypto-downward-row2 .fa-id-card{
+    color: blue;
+    font-size: 1.2rem;
+}
+.navbuy-crypto-downward-row2-bold{
+    font-weight: 600;
+    font-size: 17px;
+    color: gray;
+}
+.navbuy-crypto-downward-row2-flex{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    color: blue;
+}
+.navbuy-crypto-downward6 div:first-child{
+    cursor: auto;
+}
+.navbuy-crypto-downward6 .navbuy-crypto-downward-row1-backnone{
+    padding: .4rem 1rem;
+}
+.navbuy-crypto-downward6 .navbuy-crypto-downward-row1-backnone:hover{
+    background-color: white;
+}
+.resnav-div1-flex{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .3rem .6rem;
+}
+.resnav-div1-flex div:first-child{
+    width: 1.7rem;
+}
+.resnav-div1-flex div:last-child{
+    font-size: 14.6px;
+}
+.resnav-div1-flex .fa-solid{
+    font-size: 1.2rem;
+}
+.navbuy-crypto-downward-row2 i{
+    width: 1.7rem;
+}
+/* .resnav{
+   background-color: black;
+   color: blue;
+} */
+
+@media screen and (max-width: 950px){
+    .navbar{
+        display: none;
+    }
+    .right_header header{
+        display: none;
+    }   
+    .renav-div-none{
+        display: flex;
+        align-items: center;
+    }
+    .nav-row3-col2{
+        display: none;
+    }
+    .nav-row3-col1{
+        display: none;
+    }
+}

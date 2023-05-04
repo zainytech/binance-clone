@@ -1,0 +1,153 @@
+.mark{
+    background-color:  black;
+    overflow: hidden;
+    color: white;
+    padding: .2rem 1.4rem;
+}
+.mark .marketrow1{
+    padding: 1.8rem .3rem;
+}
+.mark .marketrow1 button{ 
+    padding: .7rem 1rem;
+}
+.markrow1{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); */
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2.6rem;
+    margin-bottom: 2rem;
+}
+.mark1col1 p:first-child{
+    font-size: 16px;
+    opacity: .9;
+}
+.mark1col1inner div:first-child div{
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+}
+.mark1col1inner div:first-child img{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.mark1col1inner .mark1inner1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.mark1inner2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.mark1inner2 div div:first-child{
+    font-weight: bold;
+}
+.mark1col1inner{
+    display: flex;
+    gap: 1.4rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+.mark1-green{
+    color: green;
+    font-weight: bold;
+}
+.mark1-red{
+    color: red;
+    font-weight: bold;
+}
+.markrow2{
+    margin: 6rem 0 4rem 0;
+    display: flex;
+    align-items: baseline;
+    gap: 2.7rem;
+    background-color: #161616;
+    width: 40rem;
+    padding: .5rem 1.2rem .7rem 1.2rem;
+    border-radius: .6rem;
+}
+.mark .active{
+    background-color: #2D56E1;
+    padding: .6rem 1.2rem;
+    border-radius: .4rem;
+    margin: .3rem;
+    color: white;
+}
+.markrow2 div{
+    opacity: .8;
+}
+.market2row3{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 6rem;
+}
+.market2row3col1{
+    display: flex;
+    gap: 6.4rem;
+}
+.market2col1-margin{
+    margin: 2rem 0;
+    font-weight: bold;
+}
+.mark .market2green{
+    margin: 2rem 0;
+    color: green;
+    font-weight: bold;
+}
+.mark .market2gf{
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+    margin: 1.4rem 0;
+}
+.market3-hidden{
+    visibility: hidden;
+}
+.market2col1-blue{
+    color: #2D56E1;
+    font-weight: bold;
+    margin-left: 7rem;
+}
+.market2co1-blue{
+    color: #2D56E1;
+    font-weight: bold;
+}
+.market2col2{
+    display: flex;
+    gap: 1.8rem;
+    align-items: baseline;
+    padding-bottom: 2rem;
+    font-size: 16px;
+    width: 100%;
+}
+.market2col2 div{
+    opacity: .8;
+}
+.market2col2-diff{
+    background-color: #161616;
+    width: 8rem;
+    height: 2.8rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .4rem;
+    opacity: 1;
+}
+.markrow2 div{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 890px){
+    .mark{
+        overflow: auto;
+    }
+    .market2col2{
+        overflow: auto;
+        width: max-content;
+    }
+}

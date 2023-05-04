@@ -1,0 +1,547 @@
+.dflat-main{
+    background-color: #1E1E1E;
+
+}
+.dflat-main-bg-img{
+    height:auto;
+    width:100%;
+    background: rgba(7, 7, 7, 0.9);
+}
+.dflat-main-bg-img img{
+    height:inherit;
+    width:inherit;
+}
+
+.dflat-content{
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+
+    /* background-color: rgb(42, 105, 160); */
+}
+.dflat-content-container{
+    /* background-color: aqua; */
+    margin-left:5rem;
+    margin-right:5rem;
+}
+.dflat-content-head{
+    display: flex;
+    position: relative;
+}
+.dflat-content-head-div1-txt{
+    font-size: 32px;
+    font-weight: 600;
+    color:white;
+}
+.dflat-content-head-div2{
+    position:absolute;
+    right:0;
+}
+.dflat-content-head-div2 img{
+margin:0.3rem;
+}
+.dflat-content-head-div2 button{
+    /* padding:12px, 24px, 12px, 24px; */
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin:0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgba(22, 22, 22, 1);
+}
+.dflat-content-head-div2-btn1{
+    color: rgba(95, 131, 255, 1);
+}
+.dflat-content-head-div2-btn2{
+    color: white;
+}
+
+
+.dflat-content-box{
+position:relative;
+padding-top:5rem;
+color:white;
+height:auto;
+display:flex;
+/* border: green 4px solid; */
+
+}
+.dflat-content-box1{
+    width:50%;
+    position:absolute;
+    /* left:0; */
+    /* border:red solid 2px; */
+}
+.dflat-content-box2{
+    width:50%;
+    /* border:red solid 2px; */
+}
+
+.dflat-content-box1-main{
+    background-color: rgba(22, 22, 22, 1);
+    width:25rem;
+    padding:2rem;
+    border-radius:1rem;
+}
+.dflat-content-box1-container{
+    margin:0.5rem;
+    /* border:pink 2px solid; */
+}
+.dflat-content-box1-div1{
+    margin-bottom: 1rem;
+}
+.dflat-content-box1-div1-txt{
+    font-size:20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.dflat-content-box1-div2{
+border:grey 1px solid;
+border-radius:0.5rem;
+    position:relative;
+    margin-top:1rem;
+    padding:1rem;
+    background-color: rgba(22, 22, 22, 1);
+    width:100%;
+    /* display:flex; */
+}
+.dflat-content-box1-div2a{
+    background-color: transparent;
+
+}
+.dflat-content-box1-div2a img{
+   /* padding:2rem;  */
+   width:2rem;
+   height:2rem;
+
+}
+
+.dflat-content-box1-div2 img{
+    margin-right:1rem;
+}
+
+.dflat-content-box1-div2-txt1{
+    font-size:14px;
+    color: rgba(255, 255, 255, 1);
+font-weight: 500;
+margin-top:2rem;
+display:block;
+}
+.dflat-content-box1-div2-txt2{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.dflat-content-box1-div2a-img2{
+    position:absolute;
+    right:0;
+    top:1.5rem;
+}
+
+
+.dflat-content-box1-div3{
+    margin-top:1.5rem;
+}
+.dflat-content-box1-div3a{
+width:auto;
+margin-top:1rem;
+border-radius:0.5rem;
+    background-color:rgba(8, 8, 8, 1);
+}
+.dflat-content-box1-div3a button{
+    /* padding:12px, 24px, 12px, 24px; */
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin:0.5rem;
+    border-radius: 0.5rem;
+
+}
+.dflat-content-box1-div3a-btn1{
+    background-color: rgba(45, 86, 225, 1);
+    
+}
+.dflat-content-box1-div3a-btn2{
+    background-color: rgba(8, 8, 8, 1);
+
+    
+}
+
+.dflat-content-box1-div4{
+    margin-top:1.5rem;
+}
+
+.dflat-content-box1-div4a{
+    display:flex;
+    border:grey 1px solid;
+    border-radius:0.5rem;
+        position:relative;
+        margin-top:1rem;
+        padding:1rem;
+        /* display:flex; */
+}
+.dflat-content-box1-div4a-div1{
+    display:flex;
+}
+.dflat-content-box1-div4a-div1 img{
+border-radius:50%;
+height:1.5rem;
+margin-top:0.5rem;
+margin-right:0.5rem;
+margin-left:0.5rem;
+
+}
+.dflat-content-box1-div4a-div2-txt1{
+display:block;
+}
+
+.dflat-content-box1-div5{
+    width:auto;
+    margin-top: 1.5rem;
+}
+.dflat-content-box1-div5 button{
+    width:100%;
+    background-color: rgba(45, 86, 225, 1);
+    border-radius: 0.5rem;
+    padding:0.7rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dflat-content-box1-div5 img{
+    margin-right: 0.5rem;
+}
+
+/* box2 styling/////////// */
+
+
+
+.dflat-content-box2-main{
+    background-color: rgba(22, 22, 22, 1);
+    width:25rem;
+    padding:2rem;
+    position: absolute;
+    right:0;
+    border-radius:1rem;
+}
+.dflat-content-box2-container{
+    margin:0.5rem;
+    /* border:pink 2px solid; */
+    position:relative;
+}
+.dflat-content-box2-div1-img{
+    position: absolute;
+    right:0;
+    margin-top:0.5rem;
+}
+.dflat-content-box2-div1-txt2{
+    position: absolute;
+    right:0;
+    color: rgba(95, 131, 255, 1);
+    font-size:14px;
+
+}
+.dflat-content-box2-div3{
+    margin-top:1.5rem;
+}
+.dflat-content-box2-div3a{
+    margin-top:1rem;
+    display:flex;
+    cursor: pointer;
+}
+.dflat-content-box2-div3a-div1{
+    width:50%;
+}
+.dflat-content-box2-div3a-txt{
+    font-size:14px;
+    /* width:5rem; */
+}
+.dflat-content-box2-div3a img{
+    position: absolute;
+    right:0;
+    margin-top:1rem;
+}
+
+
+.dflat-content-box2-div3a-onclick-main{
+    width:auto;
+    background-color: transparent;
+    /* border:grey 1px solid; */
+    border-radius: 0.5rem;
+    padding:1rem;
+    
+    margin-top:0.5rem;
+}
+.dflat-content-box2-div3a-onclick-main-txt{
+    font-size:14px;
+}
+#react-flag-drop{
+    background-color: #1E1E1E !important;
+    color:black !important;
+    margin-top:1rem;
+    border: grey solid 1px !important;
+border-radius: 0.5rem;
+}
+/* .ReactFlagsSelect-module_selectValue__152eS{
+    color:black !important;
+    padding:0.5rem !important;
+} */
+
+/* .ReactFlagsSelect-module_selectOptions__3LNBJ.ReactFlagsSelect-module_fullWidthOptions__1XeR6{
+background-color: #1E1E1E;
+border:#1E1E1E;
+  }
+  .ReactFlagsSelect-module_selectOption__3pcgW.ReactFlagsSelect-module_selectOptionWithlabel__2GpmM:hover{
+background-color: #636262;
+  }
+  input[name="radio"] {
+	accent-color: #1E1E1E;
+} */
+
+
+@media screen and (max-width: 1100px) {
+    .dflat-main{
+        background-color: #1E1E1E;
+        height:60rem;
+
+    }
+    .dflat-main-bg-img{
+        height:100%;
+        width:100%;
+        background: rgba(7, 7, 7, 0.9);
+    }
+}
+@media screen and (max-width: 980px) {
+    .dflat-main{
+        background-color: #1E1E1E;
+        height:80rem;
+
+    }
+    .dflat-main-bg-img{
+        height:100%;
+        width:100%;
+        background: rgba(7, 7, 7, 0.9);
+    }
+    .dflat-content-head{
+        display: block;
+        position: relative;
+    }
+
+    .dflat-content-head-div2{
+        position:absolute;
+        left:-0.5rem;
+
+    }
+
+
+    .dflat-content-box{
+        display:block;
+        }
+        .dflat-content-box1{
+            display: block;
+        }
+        .dflat-content-box2-main{
+            left:0;
+            right:none;
+            top:50rem;
+        }
+}
+
+@media screen and (max-width: 550px) {
+    .dflat-main{
+        background-color: #1E1E1E;
+        height:58rem;
+
+    }
+    .dflat-main-bg-img{
+        height:100%;
+        width:100%;
+        background: rgba(7, 7, 7, 0.9);
+    }
+    
+    .dflat-content-container{
+        /* background-color: aqua; */
+        margin-left:2rem;
+        margin-right:2rem;
+    }
+
+.dflat-content-box1-main{
+    width:18rem;
+    padding:1rem;
+    border-radius:0.5rem;
+}
+.dflat-content-box1-container{
+    margin:1rem;
+    /* border:pink 2px solid; */
+}
+.dflat-content-box1-div1{
+    margin-bottom: 0.5rem;
+}
+.dflat-content-box1-div1-txt{
+    font-size:15.29px;
+}
+
+.dflat-content-box1-div2{
+border:grey 1px solid;
+border-radius:0.3rem;
+    margin-top:1rem;
+    padding:0.5rem;
+}
+
+.dflat-content-box1-div2a img{
+   /* padding:2rem;  */
+   width:2rem;
+   height:2rem;
+
+}
+
+.dflat-content-box1-div2 img{
+    margin-right:1rem;
+}
+
+.dflat-content-box1-div2-txt1{
+    font-size:10.7px;
+    margin-top:1rem;
+}
+.dflat-content-box1-div2-txt2{
+    font-size: 10.7px;
+    font-weight: 600;
+}
+
+
+
+.dflat-content-box1-div2a-img2{
+    position:absolute;
+    right:0.5rem;
+    top:1.5rem;
+}
+.dflat-content-box1-div3{
+    margin-top:0.5rem;
+}
+.dflat-content-box1-div3a{
+    margin-top:0.5rem;
+}
+.dflat-content-box1-div3a button{
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    margin:0.5rem;
+    border-radius: 0.2rem;
+font-size: 10.7px;
+}
+
+
+.dflat-content-box1-div4{
+    margin-top:1rem;
+}
+
+.dflat-content-box1-div4a{
+    border-radius:0.5rem;
+        margin-top:0.5rem;
+        padding:0.3rem;
+        /* display:flex; */
+}
+
+.dflat-content-box1-div4a-div1 img{
+margin-top:0.3rem;
+}
+
+
+.dflat-content-box1-div5{
+    width:auto;
+    margin-top: 1rem;
+}
+.dflat-content-box1-div5 button{
+    width:100%;
+    background-color: rgba(45, 86, 225, 1);
+    border-radius: 0.3rem;
+    padding:0.4rem;
+    font-size: 10.7px;
+}
+
+.dflat-content-box1-div5 img{
+    margin-right: 0.5rem;
+}
+.dflat-content-box1-div5-txt{
+    font-size: 9.17px;
+}
+
+
+.dflat-content-box2-main{
+    width:18rem;
+    top:35rem;
+    padding:1rem;
+    border-radius:0.5rem;
+}
+.dflat-content-box2-container{
+    margin:1rem;
+}
+.dflat-content-box1-div1 img{
+    height:0.6rem;
+    width:0.6rem;
+}
+
+.dflat-content-box2-div1-txt2{
+    font-size:12.27px;
+}
+.dflat-content-box2-div3{
+    margin-top:1rem;
+}
+.dflat-content-box2-div3a{
+    margin-top:1rem;
+    display:flex;
+    cursor: pointer;
+}
+.dflat-content-box2-div3a-div1{
+    width:65%;
+}
+.dflat-content-box2-div3a-txt{
+    font-size:12.27px;
+    /* width:5rem; */
+}
+.dflat-content-box2-div3a img{
+    position: absolute;
+    right:0;
+    margin-top:1rem;
+}
+
+
+.dflat-content-box2-div3a-onclick-main{
+    border-radius: 0.3rem;
+    padding:0.5rem;
+    margin-top:0.3rem;
+}
+.dflat-content-box2-div3a-onclick-main-txt{
+    font-size:12.27;
+}
+
+}
+
+@media screen and (max-width: 360px) {
+    .dflat-content-container{
+        /* background-color: aqua; */
+        margin-left:1rem;
+        margin-right:1rem;
+    }
+    .dflat-content-box{
+        padding-top:9rem;
+    }
+    .dflat-content-box1-main{
+        width:15rem;
+        padding:0.5rem;
+        border-radius:0.3rem;
+    }
+    .dflat-content-box1-container{
+        margin:0rem;
+    }
+    .dflat-content-box2-main{
+        width:15rem;
+        top:37rem;
+        padding:0.5rem;
+        border-radius:0.3rem;
+    }
+    .dflat-content-box2-container{
+        margin:0rem;
+    }
+}

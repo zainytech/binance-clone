@@ -1,0 +1,465 @@
+.referral3{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    margin-bottom: 3rem;   
+    line-height: .8em;
+    color: black;
+}
+
+.ref-tip{
+    position: relative;
+    margin-top: -32px;
+    background-color: rgb(255, 255, 255);
+    /* background-color: black; */
+    /* color: white; */
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    padding: 3.5rem 8rem;
+    border-top: 2rem;
+    z-index: 1;
+
+}
+
+.referral3-row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.refdata{
+    display: flex;
+    align-items: baseline;
+    margin-top: 1rem;
+    gap: .6rem;
+}
+.refrow{
+  line-height: 1.4em;   
+}
+.refrow3{
+    line-height: 1.4em;
+}
+.refrow3:first-child{
+    font-weight: 600;
+}
+.refrow4{
+    line-height: 1.4em;
+    /* background-color: #2A2A72; */
+}
+
+.css-1qm6j5t{
+    width: 2rem;
+}
+
+.css-14gt749{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.css-jvw6n9 {
+    width: 1.5em;
+}
+
+.css-1k9k1hu {
+    width: 1.5em;
+    color: rgb(24, 26, 32);
+}
+
+.css-98q65l{
+    width: 2.5rem;
+}
+
+.css-99fugq{
+    font-size: 16px;
+    width: 1em;
+    height: 1em;
+    color: rgb(132, 142, 156);
+}
+
+/* svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+} */
+
+.referralrow{
+    display: flex;
+    gap: .6rem;
+}
+
+.refdt1{
+    height: 2.2rem;
+    color: black;
+    padding: .7rem 1.4rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    background-color: rgb(201, 200, 200);
+}
+
+.refdt1 a{
+    text-decoration: none;
+}
+
+.refrow13{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.refrow1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1.5rem;
+}
+
+.refcol1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    line-height: 1.2em;
+    text-align: center;
+    background-color: #009FFD;
+    /* background-color: #92cef0; */
+    /* background-color: #7EE8FA; */
+    /* background-color: #8693AB; */
+    /* background-color: rgb(179, 229, 252); */
+    padding: 1.5rem 2.2rem;
+    border-radius: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+.refcol1 :first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.refcol1 :last-child{
+    color: gainsboro;
+    /* color: rgb(185, 158, 158); */
+    margin-bottom: 1rem;
+} 
+
+.css-3tndv1 {
+    width: 2.7em;
+}
+
+.refrow2{
+    margin: 1rem 0;
+    display: flex;
+    padding: 1rem .7rem;
+    justify-content: space-between;
+    background-color: #009FFD;
+    /* background-color: rgb(79, 195, 247); */
+    border-radius: 1rem;
+    color: black;
+}
+
+.refdat1{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    vertical-align: middle;
+}
+
+.ref-btn{
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: .4rem;
+    padding: .3rem .6rem;
+    border-radius: .8rem;
+}
+
+.refdat2 a{
+    text-decoration: none;
+}
+
+.css-3tndv{
+    padding: .6rem;
+}
+
+.refgrid1{
+   margin-top: 1rem;
+   background-color: rgb(250, 250, 250);
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+}
+
+.refgrid1 div{
+    margin-bottom: .5rem;
+}
+
+.refgrid1 div p{
+    color: rgb(112, 122, 138);
+    margin-bottom: .5rem;
+}
+
+.grdata p{
+    color: rgb(112, 122, 138);
+    line-height: 1.3em;
+}
+
+.ref1-btn{
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: .4rem;
+    padding: .5rem .9rem;
+    border-radius: .8rem;
+}
+
+.bonus{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(112, 122, 138);
+    margin: 1rem 0;
+}
+
+.ref-rew{
+    display: flex;
+    justify-content: space-between;
+    /* display: none; */
+ 
+}
+.ref-rew p{
+    color: blue;
+    background-color: rgb(243, 241, 241);
+    padding: .4rem;
+    margin-top: 1.7rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+.css-q9egnk{
+    margin-top: 46px;
+    width: 96px;
+    text-align: center;
+}
+
+.invit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+.invit:hover{
+    background-color: rgb(245, 243, 243);
+}
+
+.invit p {
+    color: rgb(112, 122, 138);  
+}
+
+.invit button{
+    padding: 1.2rem 7rem;
+    background-color: #2D56E1;
+    border-radius: .6rem;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.reg1{
+    display: flex;
+    gap: 1rem;
+}
+
+.reg-btn{
+    height: 2.2rem;
+    color: black;
+    padding: .7rem 1.4rem;
+    border-radius: .5rem;
+    background-color: rgb(231, 229, 229);
+}
+
+.token{
+    background-color: rgb(245, 244, 244);
+    border-radius: .8rem;
+    padding: .5rem 1rem;
+}
+
+.lite{
+    background-color: gray;
+    margin: 0;
+    position: relative;
+    padding: 2rem 5rem 5rem 5rem;
+    color: black;
+    background-image: linear-gradient(to right, #2D56E1,#7EE8FA
+    , #2A2A72);
+}
+.lite-first{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.lite-first div{
+    display: flex;
+    gap: 1.6rem;
+   
+}
+.lite-first div a{
+    text-decoration: none;
+    color: black;
+    background-color: inherit;
+}
+
+.stand-first div a:hover{
+    color: blue;
+}
+.lite-first div h6{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.lite-first button{
+    padding: .5rem .6rem;
+    background-color:#2D56E1;
+    border-radius: .3rem;
+    font-weight: bold;
+    font-size: medium;
+}
+.lite-first button:hover{
+    color: black;
+}
+.lite-sec{
+    display: flex;
+    margin: 2rem 0;
+    gap: 5rem;
+}
+
+.lite-head {
+    flex: 1;
+}
+
+.lite-head h3{
+    font-size: 3rem;
+    line-height: 1em;
+    margin-top: .5rem;
+}
+.lite-head a{
+    text-decoration: none;
+    color: black;
+}
+.lite-head p{
+    margin-top: .5rem;
+    font-size: 1.2rem;
+}
+
+.lite-btn{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+    max-width: auto;
+    background-color: #009FFD;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+}
+
+.lite-btn2{
+    display: flex;
+    justify-content: space-between;
+    padding: .6rem 1rem;
+    cursor: text;
+    border-radius: .5rem;
+    outline: none;
+}
+
+.lite-btn1{
+    padding: 1rem 7rem;
+    background-color: #2D56E1;
+    border-radius: .6rem;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.ref-icons{
+    display: flex;
+    gap: 2.2rem;
+    margin-top: 1rem;
+}
+
+.css-m8{
+  width: 40px
+}
+.css-m7{
+    width: 40px;
+}
+
+@media screen and (max-width: 1020px){
+    .lite-head h3{
+        font-size: 2rem;
+        gap: 1rem;
+    }
+    .lite{
+        padding: 4rem 2rem;
+    }
+    .ref-tip{
+        padding: 3.5rem 2rem;   
+    }
+    .ref-icons{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .lite-head{
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .lite-first button{
+        display: none;
+    }
+    .lite-sec{
+        flex-direction: column;
+    }
+    .lite{
+        padding: 4rem .7rem;
+    }
+    .lite-btn{
+        /* max-width: 17rem; */
+        padding: 1rem 1.3rem;
+    }    
+    .lite-btn2{
+        display: flex;
+        padding: .6rem .5rem;
+    }    
+    .lite-btn1{
+        padding: .8rem 1rem;
+    }
+    .refrow1{
+        grid-template-columns: auto;
+    }
+    .ref-btn{
+        display: flex;
+        /* align-items: center; */
+        gap: .2rem;
+        width: 100px;
+        padding: .3rem .2rem;
+    }    
+    .refgrid1{
+        gap: 1rem;
+        line-height: 1.2em;
+        grid-template-columns: auto auto;
+     }
+     .bonus{
+        display: none;
+     }
+     .invit button{
+        padding: 1rem 4rem;
+    }
+    .ref-rew{
+        display: flex;
+    }
+}

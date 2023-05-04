@@ -1,0 +1,51 @@
+.waoption{
+    display: flex;
+    overflow: hidden;
+    color: black;
+    width: 100%;
+}
+.waoption-sec{
+    width: 82%;
+    padding: 2rem 1.4rem;
+}
+.waoption-sec-col{
+    width: 74%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.waoption-sec-col4{
+    /* width: 30%; */
+    margin: 2rem auto;
+}
+.waoption-sec-col4 img{
+    width: 6rem;
+    height: 6rem;
+}
+.waoption-sec-col1{
+    display: flex;
+    text-align: justify;
+    align-items: start;  
+}
+.waoption-sec a:hover{
+    text-decoration: none;
+}
+.waoption-sec-col3{
+    background-color: rgb(235, 233, 233);
+    width: 26%;
+    height: 2.8rem;
+    border-radius: .5rem;
+    font-weight: bold;
+    margin: 1rem auto;
+}
+@media screen and (max-width: 790px){
+    .waoption-sec{
+        padding: 2rem 1.4rem;
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .waoption-sec-col{
+        width: 80%;
+    }
+}

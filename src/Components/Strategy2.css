@@ -1,0 +1,46 @@
+.strat2{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.strat2row4{
+    margin: 3rem 0;
+    padding: 1rem 1.5rem;
+}
+.strat4col1{
+    margin: 1rem 0;
+    padding: 1.2rem 2rem;
+    border-radius: .9rem;
+    line-height: 1em;
+    background-color: rgba(22, 22, 22, 0.5);
+}
+.strat4col1{
+    display: flex;
+    justify-content: space-between;
+}
+.strat4col1 div span{
+    color: green;
+}
+.strat4col1 div p{
+    font-size: 11px;
+}
+.strat4col1 div p:first-child{
+    font-weight: bold;
+    font-size: 15px;
+}
+.strat4col1 button{
+    background-color: #2D56E1;
+    height: 2.3rem;
+    padding: .5rem 2.5rem;
+    border-radius: .8rem;
+}
+@media screen and (max-width: 530px){
+    .strat4col1{
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .strat4col2{
+        display: grid;
+        place-items: center;
+    }
+}

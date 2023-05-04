@@ -1,0 +1,106 @@
+.announce{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding: 1rem 2.2rem;
+    position: relative;
+}
+.announce .hist2row1{
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+}
+.announcerow1{
+    margin: 5rem 0;
+    display: flex;
+    gap: 2rem;
+}
+.active .anouncep{
+    color: blue;
+}
+.announce1col1{
+    width: 24%;
+    background-color: #161616;
+    padding: 1.2rem 1.4rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    height: fit-content;
+}
+.announce1col1 p{
+    background-color: black;
+    padding: .8rem .8rem;
+    margin-top: .5rem;
+    border-radius: .8rem;
+}
+.announce1col1 p:hover{
+    color: blue;
+    cursor: pointer;
+}
+.announce1col3{
+    width: 26%;
+    background-color: #161616;
+    padding: 2rem 1.6rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: fit-content;
+}
+.announce1col2{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-top: 1.6rem;
+}
+.announce1col2 p{
+    font-weight: 500;
+}
+.announce1col2 p span{
+    color: blue;
+    margin-left: 1rem;
+}
+.announce-responsive{
+    background-color: #161616;
+    color: blue;
+    padding: .8rem .8rem;
+    width: 15rem;
+    font-weight: bold;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    display: none;
+}
+.announce-responsive img{
+    margin-left: .5rem;
+    width: .7rem;
+    height: .8rem;
+}
+@media screen and (max-width: 880px){
+    .announce .hist2row1{
+        display: none;
+    }
+    .announce1col1{
+        display: none;
+    }
+    .announcerow1{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .announce1col2{
+        width: 96%;
+        margin: auto;
+    }
+    .announce1col3{
+        width: 96%;
+        margin: auto;
+    }
+    .announce{
+        padding: 1rem 1rem;
+    }
+    .announce-responsive{
+        position: absolute;
+        display: block;
+        top: 2rem;
+        left: 0;
+    }
+}

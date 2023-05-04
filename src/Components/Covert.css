@@ -1,0 +1,367 @@
+.covert{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding: 3rem 1.6rem;
+}
+.covert h2{
+    color: #2D56E1;
+}
+.covert h2 span{
+    color: white;
+    margin-left: .6rem;
+}
+.covertfull{
+    display: flex;
+    gap: 3rem
+}
+.covertfirst{
+   width: 52%;
+}
+.covertrow1{
+    display: flex;
+    gap: 1.6rem;
+    margin-top: .4rem;
+}
+.covertrow1 div{
+    display: flex;
+    gap: .4rem;
+}
+.covert1col1 img{
+    width: 1rem;
+    height: 1rem;
+}
+.covertfrow1{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.6rem 0 2.6rem 0;
+}
+.covertfrow1 div{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #161616;
+    width: 11rem;
+    padding: .3rem 2rem .4rem .4rem;
+    border-radius: .6rem;
+    gap: .5rem;
+}
+.covertfrow1 div p:first-child{
+    background-color: #2D56E1;
+    width: 5rem;
+    padding: .5rem;
+    text-align: center;
+    border-radius: .6rem;
+}
+.covertfrow1 button{
+    color: #2D56E1;
+    padding: .3rem 1rem;
+    border-radius: .6rem;
+    height: 2.4rem;
+    background-color: #161616;
+}
+.covertfrow2{
+    display: flex;
+    justify-content: space-between;
+}
+.covertfrow2 .covertf1col1{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+.covertfrow2 .covertf1col1 div{
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+}
+.covertfrow2 .covertf1col1 div img{
+    width: 2.6rem;
+    height: 2.6rem;
+}
+.covertfrow2 .covertf1col1 span{
+    color: green;
+    font-weight: bold;
+}
+.covertfirst .frame9img{
+    width: 98%;
+    height: 69vh;
+    margin: 3rem 0;
+    padding-bottom: 3rem;
+    /* border: 1px solid red; */
+    padding-top: 0;
+}
+.frame9img .tradingview-widget-container{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid yellow; */
+    /* padding-top: 0; */
+
+}
+#tradingview_bad6b{
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    /* border: 1px solid yellow; */
+}
+.covertfrow3{
+    margin: 2rem 0 1rem 0;
+}
+.covertfrow3 p{
+    opacity: .9;
+    width: 90%;
+    text-align: justify;
+}
+.covertfrow4{
+    margin: 2rem 0;
+}
+.covert4table{
+    width: 62%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.covert4table .covert4col1{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.covert4table .covert4col1 p img {
+    cursor: pointer;
+}
+.covert4table .covert4col1 .covert4col1p{
+    font-weight: bold;
+}
+.covert4col1green{
+    font-weight: bold;
+    color: green;
+}
+.covert4col1red{
+    font-weight: bold;
+    color: red;
+}
+.covertfrow5{
+    margin: 4rem 0;
+}
+.covertfrow5 h4{
+    margin-bottom: .6rem;
+}
+.covertfrow5 p{
+    opacity: .9;
+}
+.covertf5col1img{
+    display: flex;
+    align-items: center;
+    width: 26%;
+    gap: .4rem;
+}
+.covertf5col1 img{
+    height: .5rem;
+    align-items: center;
+}
+.covertf5col2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1.4rem;
+    line-height: 1;
+}
+.covertfrow6{
+    margin: 2rem 0;
+}
+.covert6pp{
+    opacity: 1;
+    font-weight: bold;
+}
+.covertfrow6 div p{
+    opacity: .9;
+}
+.covertfrow7{
+    margin: 2.6rem 0;
+}
+.covertfrow7 .trade-view{
+    margin-top: 1rem;
+}
+.covertfrow7 p{
+    width: 96%;
+    text-align: justify;
+    opacity: .8;
+    margin-top: .4rem;
+}
+.covertfrow8 p{
+    color: #2D56E1;
+    margin-top: .5rem;
+    line-height: 1.1;
+    font-weight: bold;
+}
+.covertfrow9{
+    margin: 3rem 0 2rem 0;
+}
+.covertfrow9 h4{
+    margin-bottom: -.5rem;
+}
+.covertfrow10{
+    margin: 1rem 0 3rem 0;
+}
+.covertf10col1{
+    width: 90%;
+    display: flex;
+    gap: .7rem;
+    margin: 1rem 0;
+    align-items: center;
+}
+.covertf10col1 img{
+    width: 8.5rem;
+    height: 7.5rem;
+}
+
+.covertf10col1 div p{
+    opacity: .9;
+    text-align: justify;
+    line-height: 1.1;
+    margin: .4rem 0;
+}
+.covertf10col1 div div{
+    display: flex;
+    align-items: baseline;
+    gap: .6rem;
+}
+.covertfrow11{
+    margin: 3rem 0;
+}
+.covertfrow11 p{
+    opacity: .8;
+    width: 86%;
+    text-align: justify;
+    line-height: 1.2;
+}
+.covertsec{
+    width: 40%;
+}
+.covertsrow1{
+    background-color: #161616;
+    margin: 3rem 0 2rem 1rem;
+    padding: 2rem 1.4rem;
+    border-radius: 1rem;
+}
+.coverts1select{
+    display: flex;
+    width: 100%;
+    height: 2.4rem;
+    border: 1px solid gray;
+    border-radius: .8rem;
+    padding: 0 .4rem;
+    margin-top: .2rem;
+}
+.coverts1select input{
+    outline: none;
+    border: none;
+    padding: 1rem .6rem;
+    width: 80%;
+    height: 100%;
+    border-top-left-radius: .8rem;
+    border-bottom-left-radius: .8rem;
+    background-color: inherit;
+}
+.coverts1-style{
+    outline: none;
+    border: none;
+    width: 5.6rem;
+    height: 99%;
+    border-top-right-radius: .8rem;
+    border-bottom-right-radius: .8rem;
+}
+.covertsrow1-box1{
+    margin: 1rem 0 .5rem 0;
+}
+.covertsrow1-box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.covertsrow1-box2 p:last-child{
+    opacity: .8;
+}
+.coverts1p{
+    opacity: .8;
+}
+.coverts1-btn{
+    background-color: #2D56E1;
+    border-radius: .8rem;
+    margin-top: 1.8rem;
+    width: 100%;
+    padding: .7rem 0;
+    font-weight: bold;
+}
+.covertsrow2{
+    margin: 3rem 0 2rem 1rem;
+    padding: 1.6rem .5rem;
+}
+.coverts2col1{
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: .8;
+}
+.coverts2col1 .coverts2col2{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+} 
+.coverts2col1 .coverts2col2 img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.coverts2col1 div p:first-child{
+    font-weight: bold;
+}
+.coverts2-red{
+    font-weight: bold;
+    color: red;
+}
+.coverts2-green{
+    font-weight: bold;
+    color: green;
+}
+@media screen and (max-width: 940px){
+    .covert{
+        overflow: hidden;
+        padding: 3rem 1rem;
+    }
+    .covertfull{
+        flex-direction: column;
+        gap: 0;
+    }
+    .covertfirst{
+       width: 98%;
+    }
+    .covertsec{
+        width: 98%;
+    }
+}
+@media screen and (max-width: 640px){
+    .covertfrow10{
+        display: none;
+    }
+    .covertfrow11{
+        display: none;
+    }
+    .covertsrow1{
+        margin: 3rem 0 2rem 0rem;
+        padding: 2rem 1rem;
+    }
+    .covertsrow2{
+        margin: 2rem 0 2rem 0rem;
+        padding: 1.6rem .5rem;
+    }
+    .covertfrow1{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .covertfrow1{
+        display: flex;
+        justify-content: space-between;
+        margin: 1.6rem 0 2.6rem 0;
+    }
+}

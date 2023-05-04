@@ -1,0 +1,26 @@
+.graph{
+    background-color: black;
+    height: auto;
+    width: 100%; 
+    display: grid;  
+    place-items: center;
+    padding: 1rem 2rem 4rem 2rem;
+}
+.graph .graphimg1{
+  width: 96%;
+}
+.graph .graphimg2{
+    width: 96%;
+  }
+
+  @media screen and (max-width: 690px){
+    .graph .graphimg1{
+      width: 100%;
+    }
+    .graph .graphimg2{
+        width: 100%;
+    }
+    .graph{
+      padding: 1rem .5rem 4rem .5rem;
+    }
+  }

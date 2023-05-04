@@ -1,0 +1,23 @@
+.wafunding{
+    display: flex;
+    overflow: hidden;
+    color: black;
+    width: 100%;
+}
+.wafunding-sec{
+    width: 82%;
+    padding: 2rem 1.4rem;
+}
+
+@media screen and (max-width: 790px){
+    .wafunding-sec{
+        margin-top: 2rem;
+        width: 98%;
+    }
+    /* .wafiat-first-col1-scrollsec{
+        overflow: scroll;
+        overflow-x: scroll;
+        border: 2px solid black;
+    } */
+    
+}

@@ -1,0 +1,125 @@
+.history3{
+    background-color:  #1E1E1E;
+    overflow: hidden;
+    color: white;
+    padding: 2rem 3rem;
+}
+.history3col1{
+    display: flex;
+    justify-content: space-between;
+}
+.history3col1 button{
+    background-color: #161616;
+    display: flex;
+    gap: .6rem;
+    padding: .6rem 1.6rem;
+    height: 2.6rem;
+    border-radius: .8rem;
+    color: blue;
+    font-weight: bold;
+}
+.history3col2{
+    margin: 2rem 0;
+    background-color: #161616;
+    display: flex;
+    gap: 1.4rem;
+    width: 14rem;
+    padding: .4rem 1.4rem .4rem .4rem;
+    align-items: baseline;
+    border-radius: .7rem;
+}
+.history3col2 p:first-child{
+    background-color: #2D56E1;
+    padding: .3rem .9rem;
+    border-radius: .4rem;
+}
+.history3col3{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    align-items: baseline;
+    opacity: .8;  
+}
+.history3col3 p:nth-child(2){
+    border: 1px solid #2D56E1;
+    padding: .6rem 1rem;
+    border-radius: .6rem;
+    color: #2D56E1;
+    font-weight: bold;
+    cursor: pointer;
+}
+.history3col4{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0 2rem 0;
+}
+.history3col5{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0 2rem 0;
+}
+.history3col5 .history3col2{
+    margin: 0;
+    margin-top: -.6rem;   
+}
+.history3col6{
+    width: 100%;
+    margin: .2rem 0;
+}
+.history3col7{
+    margin: 3rem 0;
+}
+.history3col7 div{
+    display: flex;
+    justify-content: space-between;
+    padding: .2rem 1rem;
+}
+.history3col7 div:first-child{
+    background-color: #161616;
+    padding: .4rem 1rem .6rem 1rem;
+    align-items: baseline;
+    margin-bottom: 1rem;
+    border-radius: .6rem;
+    opacity: .8;
+}
+.history3col7 .stat3col2{
+    background-color: black;
+    display: flex;
+    align-items: baseline;
+    padding-bottom: .5rem;
+    margin-top: 2rem;
+    color: white;
+}
+.history3col7 .stat3col2 p:first-child{
+    color: blue
+}
+.history3col7 .stat3col2 p,img {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 690px){
+    .history3{
+        overflow: hidden;
+        padding: 2rem 1rem;
+    }  
+    .history3col3{
+        gap: .1rem;
+    } 
+    .history3col4{
+        flex-direction: column;
+        gap: .2rem;
+        margin-top: 2rem;
+    }
+    .history3col5{
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    .history3col6{
+        margin-top: 1rem;
+    }
+    .history3col7 {
+        overflow: auto;
+        gap: 2rem;
+    }
+}

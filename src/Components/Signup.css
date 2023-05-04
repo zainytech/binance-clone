@@ -1,0 +1,60 @@
+.signup{
+    background-color:  #1E1E1E;
+    overflow: hidden;
+    color: white;
+    /* height: 86vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+.signupcol1{
+    background-color: #161616;
+    padding: 1.6rem;
+    width: 28rem;
+    max-width: 86%;
+    border-radius: 1rem;
+    z-index: 1000;
+}
+.signupcol1 .login2row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupcol1 .login2row1 p{
+    margin-top: .1rem;
+}
+
+.signupcol1 p{
+    opacity: .8;
+    margin-top: .8rem;
+}
+.signupcol1 .signupinput{
+    width: 98%;
+    height: 2.2rem;
+    border-radius: .6rem;
+    background-color: inherit;
+    border: 1px solid white;
+    padding: .5rem;
+}
+.signupagree{
+    line-height: 1;
+    margin: 0;
+    font-size: 11px;
+    opacity: .8;
+}
+#vehicle1{
+    line-height: 1;
+}
+
+.signupcol1 .verify1btn{
+    margin-top: 1rem;
+}
+.signup .verifycol1 p{
+    margin-bottom: .3rem;
+}
+@media screen and (max-width: 890px){
+
+}
+
+

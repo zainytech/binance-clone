@@ -1,0 +1,53 @@
+.announce2{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding: 1rem 2.2rem;
+    position: relative;
+}
+.announce2 .hist2row1{
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+}
+.announce2col2{
+    width: 47%;
+    margin-top: 1.6rem;
+}
+.announce2p2{
+    opacity: .8;
+    margin-bottom: 1.6rem;
+}
+.announce2col2 p{
+    line-height: 1.8;
+    text-align: justify;
+}
+@media screen and (max-width: 880px){
+    .announce2 .hist2row1{
+        display: none;
+    }
+    .announce1col1{
+        display: none;
+    }
+    .announcerow1{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .announce2col2{
+        width: 96%;
+        margin: auto;
+    }
+    .announce1col3{
+        width: 96%;
+        margin: auto;
+    }
+    .announce2{
+        padding: 1rem 1rem;
+    }
+    .announce-responsive{
+        position: absolute;
+        display: block;
+        top: 2rem;
+        left: 0;
+    }
+}

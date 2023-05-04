@@ -1,0 +1,107 @@
+.reward{
+    display: flex;
+    gap: 3rem;
+    height: 100%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+}
+.reward1{
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+    padding-top: 1.5rem;
+    padding-left: 1.8rem;
+    margin-top: 2rem;
+}
+.reward-row1{
+    display: flex;
+    justify-content: space-between;
+}
+.css-qxoefu{
+    width: 66px;
+}
+.reward2{
+    width: 16%;
+}
+.reward-row2{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.rewfirst{
+    color: black;
+}
+.rewfirst p{
+    color: rgb(192, 188, 188);
+    margin-bottom: .6rem;
+}
+
+.rewforth button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .7rem 1rem;
+    font-weight: 600;
+    background-color: #383838;
+    color: white;
+}
+
+.css-vvdvek {
+    box-sizing: border-box;
+    margin: 0px 10px 0px 0px;
+    min-width: 0px;
+    color: blue;
+    font-size: 24px;
+    fill: blue;
+    width: 1em;
+    height: 1em;
+}
+
+.selection--style{
+    padding: 0.5rem;
+    outline: none;
+    padding: .4rem 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.selection--style option:hover{
+    background-color: gray;
+}
+
+.selection--style select{
+    border-radius: 3rem;
+}
+
+.selection--style option{
+    border-radius: 3rem;
+    padding: 2rem;
+}
+
+
+@media screen and (max-width: 1020px){
+    .reward{
+        gap: 0rem;
+    }
+    .reward1{
+        width: 96%;
+        padding-top: 1.5rem;
+        padding-left: .1rem;
+        padding-right: .3rem;
+        margin: 2.5rem auto;
+    }   
+    .reward-row2{
+        gap: 1rem;
+        overflow: scroll;
+    }
+    .rewforth{
+        width: max-content;
+    }
+   
+}
